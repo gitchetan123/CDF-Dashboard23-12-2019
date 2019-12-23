@@ -1,0 +1,280 @@
+2019-09-03 12:16:07,109 [10] ERROR home1 - GetData -231 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 217 
+ 
+2019-09-03 12:16:07,191 [10] ERROR home1 - chart_bind -326 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 300 
+ 
+2019-09-03 12:16:07,208 [10] ERROR home1 - GetData2 -288 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 274 
+ 
+2019-09-03 12:16:07,223 [10] ERROR home1 - chart_bind2 -403 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 377 
+ 
+2019-09-03 12:16:07,247 [10] ERROR home1 - bindgrid -507 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 469 
+ 
+2019-09-03 12:16:07,480 [10] ERROR home1 - GetData_both -265 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 241 
+ 
+2019-09-03 12:16:07,523 [10] ERROR home1 - chart_bind_both -366 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 338 
+ 
+2019-09-03 12:16:07,544 [10] ERROR home1 - bindgrid_lead_converted -548 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 522 
+ 
+2019-09-03 12:16:07,561 [10] ERROR home1 - bindgrid_lead_created -587 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 561 
+ 
+2019-09-03 12:16:07,741 [10] ERROR home1 - Page_Load -135 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 64 
+ 
+2019-09-03 12:16:39,281 [8] ERROR home1 - GetData -231 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 217 
+ 
+2019-09-03 12:16:39,300 [8] ERROR home1 - chart_bind -326 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 300 
+ 
+2019-09-03 12:16:39,321 [8] ERROR home1 - GetData2 -288 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 274 
+ 
+2019-09-03 12:16:39,344 [8] ERROR home1 - chart_bind2 -403 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 377 
+ 
+2019-09-03 12:16:39,358 [8] ERROR home1 - bindgrid -507 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 469 
+ 
+2019-09-03 12:16:39,574 [8] ERROR home1 - GetData_both -265 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 241 
+ 
+2019-09-03 12:16:39,589 [8] ERROR home1 - chart_bind_both -366 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 338 
+ 
+2019-09-03 12:16:39,606 [8] ERROR home1 - bindgrid_lead_converted -548 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 522 
+ 
+2019-09-03 12:16:39,654 [8] ERROR home1 - bindgrid_lead_created -587 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 561 
+ 
+2019-09-03 12:16:39,793 [8] ERROR home1 - Page_Load -135 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 64 
+ 
+2019-09-03 12:18:12,074 [11] ERROR home1 - GetData -231 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 217 
+ 
+2019-09-03 12:18:12,089 [11] ERROR home1 - chart_bind -326 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 300 
+ 
+2019-09-03 12:18:12,104 [11] ERROR home1 - GetData2 -288 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 274 
+ 
+2019-09-03 12:18:12,119 [11] ERROR home1 - chart_bind2 -403 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 377 
+ 
+2019-09-03 12:18:12,140 [11] ERROR home1 - bindgrid -507 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 469 
+ 
+2019-09-03 12:18:12,356 [11] ERROR home1 - GetData_both -265 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 241 
+ 
+2019-09-03 12:18:12,377 [11] ERROR home1 - chart_bind_both -366 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 338 
+ 
+2019-09-03 12:18:12,391 [11] ERROR home1 - bindgrid_lead_converted -548 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 522 
+ 
+2019-09-03 12:18:12,408 [11] ERROR home1 - bindgrid_lead_created -587 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 561 
+ 
+2019-09-03 12:18:12,516 [11] ERROR home1 - Page_Load -135 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 64 
+ 
+2019-09-03 14:15:23,351 [8] ERROR home1 - GetData -231 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 217 
+ 
+2019-09-03 14:15:23,435 [8] ERROR home1 - chart_bind -326 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 300 
+ 
+2019-09-03 14:15:23,456 [8] ERROR home1 - GetData2 -288 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 274 
+ 
+2019-09-03 14:15:23,481 [8] ERROR home1 - chart_bind2 -403 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 377 
+ 
+2019-09-03 14:15:23,497 [8] ERROR home1 - bindgrid -507 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 469 
+ 
+2019-09-03 14:15:23,714 [8] ERROR home1 - GetData_both -265 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 241 
+ 
+2019-09-03 14:15:23,730 [8] ERROR home1 - chart_bind_both -366 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 338 
+ 
+2019-09-03 14:15:23,747 [8] ERROR home1 - bindgrid_lead_converted -548 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 522 
+ 
+2019-09-03 14:15:23,764 [8] ERROR home1 - bindgrid_lead_created -587 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 561 
+ 
+2019-09-03 14:15:23,906 [8] ERROR home1 - Page_Load -135 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 64 
+ 
+2019-09-03 15:49:04,345 [49] ERROR home1 - GetData -231 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 217 
+ 
+2019-09-03 15:49:04,359 [49] ERROR home1 - chart_bind -326 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 300 
+ 
+2019-09-03 15:49:04,376 [49] ERROR home1 - GetData2 -288 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 274 
+ 
+2019-09-03 15:49:04,392 [49] ERROR home1 - chart_bind2 -403 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 377 
+ 
+2019-09-03 15:49:04,423 [49] ERROR home1 - bindgrid -507 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 469 
+ 
+2019-09-03 15:49:04,616 [49] ERROR home1 - GetData_both -265 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 241 
+ 
+2019-09-03 15:49:04,645 [49] ERROR home1 - chart_bind_both -366 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 338 
+ 
+2019-09-03 15:49:04,662 [49] ERROR home1 - bindgrid_lead_converted -548 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 522 
+ 
+2019-09-03 15:49:04,679 [49] ERROR home1 - bindgrid_lead_created -587 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 561 
+ 
+2019-09-03 15:49:04,793 [49] ERROR home1 - Page_Load -135 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 64 
+ 
+2019-09-03 15:49:49,444 [48] ERROR home1 - GetData -231 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 217 
+ 
+2019-09-03 15:49:49,467 [48] ERROR home1 - chart_bind -326 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 300 
+ 
+2019-09-03 15:49:49,484 [48] ERROR home1 - GetData2 -288 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 274 
+ 
+2019-09-03 15:49:49,512 [48] ERROR home1 - chart_bind2 -403 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 377 
+ 
+2019-09-03 15:49:49,527 [48] ERROR home1 - bindgrid -507 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 469 
+ 
+2019-09-03 15:49:49,797 [48] ERROR home1 - GetData_both -265 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 241 
+ 
+2019-09-03 15:49:49,815 [48] ERROR home1 - chart_bind_both -366 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 338 
+ 
+2019-09-03 15:49:49,836 [48] ERROR home1 - bindgrid_lead_converted -548 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 522 
+ 
+2019-09-03 15:49:49,861 [48] ERROR home1 - bindgrid_lead_created -587 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 561 
+ 
+2019-09-03 15:49:50,197 [48] ERROR home1 - Page_Load -135 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 64 
+ 
+2019-09-03 15:49:57,566 [48] ERROR home1 - GetData -231 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 217 
+ 
+2019-09-03 15:49:57,582 [48] ERROR home1 - chart_bind -326 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 300 
+ 
+2019-09-03 15:49:57,598 [48] ERROR home1 - GetData2 -288 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 274 
+ 
+2019-09-03 15:49:57,612 [48] ERROR home1 - chart_bind2 -403 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 377 
+ 
+2019-09-03 15:49:57,627 [48] ERROR home1 - bindgrid -507 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 469 
+ 
+2019-09-03 15:49:57,809 [48] ERROR home1 - GetData_both -265 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 241 
+ 
+2019-09-03 15:49:57,843 [48] ERROR home1 - chart_bind_both -366 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 338 
+ 
+2019-09-03 15:49:57,866 [48] ERROR home1 - bindgrid_lead_converted -548 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 522 
+ 
+2019-09-03 15:49:57,881 [48] ERROR home1 - bindgrid_lead_created -587 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 561 
+ 
+2019-09-03 15:49:57,978 [48] ERROR home1 - Page_Load -135 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in d:\backup_Prachi\CDF-Dashboard(FinalCode)\CDF-Dashboard2017\home1.aspx.cs:line 64 
+ 

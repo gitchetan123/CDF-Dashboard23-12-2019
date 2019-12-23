@@ -1,0 +1,91 @@
+2018-12-05 14:25:35,572 [38] ERROR pre_payment - Page_Load -175 
+ System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a send. ---> System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.TlsStream.CallProcessAuthentication(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   at System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at Razorpay.Api.RestClient.MakeRequest(String relativeUrl, HttpMethod method, String data)
+   at Razorpay.Api.Entity.Request(String relativeUrl, HttpMethod verb, Dictionary`2 options)
+   at Razorpay.Api.Order.Create(Dictionary`2 data)
+   at pre_payment.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\pre\payment-page.aspx.cs:line 136 
+ 
+2018-12-05 16:00:46,148 [49] ERROR candidatedetails - btn_Agreed_Amount_Click -519 
+ System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at candidatedetails.approve_click() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 441
+   at candidatedetails.btn_Agreed_Amount_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 514 
+ 
+2018-12-05 16:15:55,409 [22] ERROR pre_moreinfo - load_nda -292 
+ System.InvalidOperationException: Invalid attempt to call HasRows when reader is closed.
+   at System.Data.SqlClient.SqlDataReader.get_HasRows()
+   at pre_moreinfo.load_nda() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\pre\moreinfo.aspx.cs:line 248 
+ 
+2018-12-05 16:17:00,385 [22] ERROR pre_moreinfo - load_nda -292 
+ System.InvalidOperationException: Invalid attempt to call HasRows when reader is closed.
+   at System.Data.SqlClient.SqlDataReader.get_HasRows()
+   at pre_moreinfo.load_nda() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\pre\moreinfo.aspx.cs:line 248 
+ 
+2018-12-05 16:17:33,024 [22] ERROR pre_moreinfo - load_nda -292 
+ System.InvalidOperationException: Invalid attempt to call HasRows when reader is closed.
+   at System.Data.SqlClient.SqlDataReader.get_HasRows()
+   at pre_moreinfo.load_nda() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\pre\moreinfo.aspx.cs:line 248 
+ 
+2018-12-05 16:18:13,685 [49] ERROR pre_moreinfo - load_nda -292 
+ System.InvalidOperationException: Invalid attempt to call HasRows when reader is closed.
+   at System.Data.SqlClient.SqlDataReader.get_HasRows()
+   at pre_moreinfo.load_nda() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\pre\moreinfo.aspx.cs:line 248 
+ 
+2018-12-05 16:19:00,382 [49] ERROR pre_moreinfo - load_nda -292 
+ System.InvalidOperationException: Invalid attempt to call HasRows when reader is closed.
+   at System.Data.SqlClient.SqlDataReader.get_HasRows()
+   at pre_moreinfo.load_nda() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\pre\moreinfo.aspx.cs:line 248 
+ 
+2018-12-05 16:23:18,750 [49] ERROR pre_moreinfo - load_nda -292 
+ System.InvalidOperationException: Invalid attempt to call HasRows when reader is closed.
+   at System.Data.SqlClient.SqlDataReader.get_HasRows()
+   at pre_moreinfo.load_nda() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\pre\moreinfo.aspx.cs:line 248 
+ 
+2018-12-05 16:47:25,463 [56] ERROR pre_moreinfo - load_nda -292 
+ System.InvalidOperationException: Invalid attempt to call HasRows when reader is closed.
+   at System.Data.SqlClient.SqlDataReader.get_HasRows()
+   at pre_moreinfo.load_nda() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\pre\moreinfo.aspx.cs:line 248 
+ 
+2018-12-05 16:47:26,483 [59] ERROR CDFMaster - Page_Init -61 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CDFMaster.Page_Init(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\CDFMaster.master.cs:line 36 
+ 
+2018-12-05 16:50:03,065 [61] ERROR pre_moreinfo - load_nda -292 
+ System.InvalidOperationException: Invalid attempt to call HasRows when reader is closed.
+   at System.Data.SqlClient.SqlDataReader.get_HasRows()
+   at pre_moreinfo.load_nda() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\pre\moreinfo.aspx.cs:line 248 
+ 
+2018-12-05 17:48:39,704 [55] ERROR candidatedetails - Page_Load -58 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 46 
+ 
+2018-12-05 17:48:40,180 [55] ERROR CDFMaster - Page_Load -36 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at CDFMaster.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\admin-master.master.cs:line 16 
+ 

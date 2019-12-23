@@ -1,0 +1,467 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CDFMaster.master.cs" Inherits="CDFMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+     <%--Add Facebook Share Button--%>
+   <%--<!—- ShareThis BEGIN -—>--%>
+       <%-- <script async="async" src="https://platform-api.sharethis.com/js/sharethis.js#property=5dccfe7025f7ed00128a9974&product=sticky-share-buttons"></script>--%>
+        <%--<!—- ShareThis END -—>--%>
+
+
+    
+<head runat="server">
+    <title>Dheya Career Mentors | CDF-Dashboard </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- Bootstrap -->
+    <link href="<%=ResolveUrl("~") %>vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- NProgress -->
+    <%-- <link href="<%=ResolveUrl("~") %>vendors/nprogress/nprogress.css" rel="stylesheet" />--%>
+    <!-- bootstrap-progressbar -->
+   <%-- <link href="<%=ResolveUrl("~") %> vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" />--%>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <%--Favicon--%>
+    <link rel="icon" href="images/fevicon.ico" type="image/x-icon" />
+    <!-- Custom Theme Style -->
+    <link href="css/custom.min.css" rel="stylesheet" />
+    <link href="css/pagination.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .menucol {
+            background-image: url(../images/hill3.jpg);
+            background-size: cover;
+            background-repeat: repeat-y;
+        }
+        .profile_pic:hover
+        {
+         -ms-transform: scale(1.5); /* IE 9 */
+          -webkit-transform: scale(1.5); /* Safari 3-8 */
+          transform: scale(2.0); 
+         transition: all .4s ease-in-out;
+        }
+        /*#Image1
+        {
+            transform: scale(1.5);
+        }*/
+        .textMenu {
+            font-family: Poppins;
+            font-weight: 100;
+        }
+
+        .adress {
+            max-width: 200px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        body {
+            /*-webkit-user-select: none;
+            -moz-user-select: -moz-none;
+            -ms-user-select: none;
+            user-select: none;*/
+        }
+
+        .awesome {
+            font-family: 'Times New Roman';
+            font-style: normal;
+            margin: 0 auto;
+            color: #313131;
+            font-weight: bolder;
+            -webkit-animation: colorchange 5s infinite alternate;
+        }
+
+        @-webkit-keyframes colorchange {
+            0% {
+                color: black;
+            }
+
+            10% {
+                color: red;
+            }
+
+            20% {
+                color: black;
+            }
+
+            30% {
+                color: red;
+            }
+
+            40% {
+                color: black;
+            }
+
+            50% {
+                color: red;
+            }
+
+            60% {
+                color: black;
+            }
+
+            70% {
+                color: red;
+            }
+
+            80% {
+                color: black;
+            }
+
+            90% {
+                color: red;
+            }
+
+            100% {
+                color: black;
+            }
+        }
+    </style>
+
+   <%-- <script type="text/javascript">
+        debugger;
+        function ChangeImage(ImageUrl) {           
+            $('Image1').src = ImageUrl;
+        }
+    </script>--%>
+
+
+</head>
+   
+<body class="nav-md footer_fixed">
+    
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col ">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="<%=ResolveUrl("~") %>home.aspx" class="site_title"><%--<i class="fa fa-group"></i>--%><i><img src="<%=ResolveUrl("~") %>images/Icon.png" style="height: 35px; width: 35px;" /></i><span>Dheya-CDF</span></a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <!-- menu profile quick info -->
+                
+                   
+                        
+                    <div class="profile">
+                       
+                  <%-- <AjaxToolkit:ToolkitScriptManager ID="smContent" runat="server"></AjaxToolkit:ToolkitScriptManager>--%>
+                        <div class="profile_pic">
+                         <%--   <asp:Content ID="Content2" ContentPlaceHolderID="cmd1" runat="server"/>
+                            <asp:UpdatePanel ID="proc_pic" runat="server">
+                             <ContentTemplate>--%>
+                            <asp:Image ID="Image1" class="img-circle profile_img" imageurl='@Image1.ImageUrl' runat="server" Visible="true" Width="60px" Height="60px" />
+                         <%--    </ContentTemplate>
+                           </asp:UpdatePanel>--%>
+                            
+                              </div>
+                        
+                         
+                        <br />
+                        <div class="profile_info" style="margin-top: 40px;">
+                            <div class="">
+                                <strong>
+                                    <asp:Label ID="lbl_username" Font-Bold="false" Font-Size="15px" ForeColor="White" runat="server" Text='<%# Bind("ARCH_ISSUE") %>' ToolTip=""></asp:Label>
+                                </strong>
+                            </div>
+                        </div>
+                    </div>
+                           
+                     
+
+                    <!-- /menu profile quick info -->
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu" style="margin-top: 0px;">
+                        <div class="menu_section">
+                            <%--  <h3>General</h3>--%>
+                            <ul class="nav side-menu">
+
+                                <li class="textMenu"><a href="<%=ResolveUrl("~") %>home1.aspx"><i class="fa fa-home"></i>Home</a>
+                                </li>
+                                  <li class="textMenu"><a href="<%=ResolveUrl("~") %>session.aspx"><i class="fa fa-home"></i>My Sessions</a>
+                                </li>
+                                <%--<li><a href="<%=ResolveUrl("~") %>home.aspx"><i class="fa fa-home"></i>Home</a>
+                                </li>--%>
+                                <li class="textMenu"><a><i class="fa fa-cogs"></i>Career Tools <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <%-- <li id="abilityfilter" runat="server"><a href="<%=ResolveUrl("~") %>career-tool/ability-filter.aspx">Career by Ability</a></li>
+                                        <li id="interestfilter" runat="server"><a href="<%=ResolveUrl("~") %>career-tool/interest-filter.aspx">Career by Interest</a></li>
+                                        <li id="personalityfilter" runat="server"><a href="<%=ResolveUrl("~") %>career-tool/personality-filter.aspx">Career by Personality</a></li>--%>
+                                        <li id="abilityInterestFilter" runat="server"><a href="<%=ResolveUrl("~") %>career-tool/ability-interest-filter.aspx">Career by Ability & Interest</a></li>
+                                        <%--<li><a href="<%=ResolveUrl("~") %>career-tool/all-filter.aspx">Career by Ability, Interest & Personality</a></li>--%>
+                                        <li><a href="<%=ResolveUrl("~") %>career-tool/RAPD-Filter.aspx">Career by RAPD</a></li>
+                                        <li><a href="<%=ResolveUrl("~") %>career-tool/ability-interest-rapd-filter.aspx">Career by Ability, Interest & RAPD</a></li>
+                                    </ul>
+                                </li>
+
+                                <li id="CareerSearch" class="textMenu" runat="server"><a><i class="fa fa-graduation-cap"></i>Career Search<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="<%=ResolveUrl("~") %>Search/SearchCourse.aspx">Search Course</a></li>
+                                        <li><a href="<%=ResolveUrl("~") %>Search/SearchCareer.aspx">Search Career</a></li>
+                                        <li><a href="<%=ResolveUrl("~") %>Search/SearchExplorer.aspx">Career Explorer</a></li>
+                                        <%--<%--  <li><a href="<%=ResolveUrl("~") %>Search/SearchSubco_Institute.aspx">Institute Search</a></li>    OLD--%>
+                                        <li><a href="<%=ResolveUrl("~") %>Search/InstituteSearch.aspx">Institute Search </a></li>
+                                        <li><a href="<%=ResolveUrl("~") %>Search/ScholarshipSearch.aspx">Scholarship Search</a></li>
+                                        <li><a href="<%=ResolveUrl("~") %>Search/FellowshipSearch.aspx">Fellowship Search</a></li>
+                                        <li><a href="<%=ResolveUrl("~") %>Search/EntranceExam.aspx">Entrance Exam Search</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="textMenu"><a><i class="fa fa-address-book"></i>Leads <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <%--<li><a href="<%=ResolveUrl("~") %>leads/lead.aspx">Create Referral</a></li>
+                                      <li><a href="<%=ResolveUrl("~") %>leads/referral.aspx">Referral</a></li>--%>
+                                        <li><a href="<%=ResolveUrl("~") %>leads/Previewleads.aspx">Referral Status</a></li>
+                                    </ul>
+                                </li>
+
+                                <%--  <li><a href="<%=ResolveUrl("~") %>Session/my-session.aspx"><i class="fa fa-coffee"></i>My Session<span style="margin-left:93px"><asp:Label runat="server" ForeColor="ForestGreen" Text="2"></asp:Label></span></a>
+                                    
+                                </li>--%>
+
+
+                                <%--<li><a><i class="fa fa-commenting"></i>Tickets <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="<%=ResolveUrl("~") %>ticket/CreateTicket.aspx">Create Ticket</a></li>
+                                        <li><a href="<%=ResolveUrl("~") %>ticket/ViewTickets.aspx">View Ticket</a></li>
+                                    </ul>
+                                </li>--%>
+
+                                <li id="li_Candidate" runat="server" class="textMenu" visible="false"><a><i class="fa fa-users"></i>Candidate Details <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li id="li_report" runat="server"><a href="<%=ResolveUrl("~") %>Candidate/CandidateReportsAndGraph.aspx">Reports & Graphs</a></li>
+                                    </ul>
+                                </li>
+
+
+                                <li class="textMenu"><a><i class="fa fa-folder-open"></i>Resources<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="<%=ResolveUrl("~") %>resources/doctree.aspx">Dheya Documents</a></li>
+                                        <li><a href="<%=ResolveUrl("~") %>resources/docvideo.aspx">Dheya Videos</a></li>
+                                        <li><a href="<%=ResolveUrl("~") %>resources/docaudio.aspx">Dheya Audio</a></li>
+                                    </ul>
+                                </li>
+                              <%--  <li class="textMenu"><a href="<%=ResolveUrl("~") %>CDF/AdvanceLevelTraining.aspx"><i class="fa fa-money"></i>Payment</a>--%>
+                                </li>
+                                <li class="textMenu"><a href="http://ijya.in" target="_blank"><i class="fa fa-globe"></i>Dheya Universe</a>
+
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <nav>
+                        <div class="nav toggle">
+                            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                        </div>
+
+
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle textMenu" data-toggle="dropdown" aria-expanded="false">
+                                    <asp:Label ID="lbl_username2" runat="server"></asp:Label>
+                                    &nbsp;
+                                        <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <%--<ul class="dropdown-menu dropdown-usermenu pull-right">
+                                    <li><a href="<%=ResolveUrl("~") %>CDF/dheya-updates.aspx">Dheya Updates</a></li>
+                                    <li><a href="<%=ResolveUrl("~") %>CDF/updateinfo.aspx">Information Update</a></li>
+                                    <li><a href="<%=ResolveUrl("~") %>CDF/bank-details.aspx">Bank Details</a></li>
+                                    <li>
+                                        <a href="<%=ResolveUrl("~") %>CDF/education.aspx">
+                                            <span>Education</span>
+                                        </a>
+                                    </li>
+                                    <li><a href="<%=ResolveUrl("~") %>CDF/experience.aspx">Experience</a></li>
+                                    <li><a href="<%=ResolveUrl("~") %>CDF/update-profile-pic.aspx">Update Profile Picture</a></li>
+                                    <li><a href="<%=ResolveUrl("~") %>CDF/change-password.aspx">Change Password</a></li>
+                                    <li><a href="<%=ResolveUrl("~") %>CDF/my-documents.aspx">My Documents</a></li>
+                                    <li><a href="<%=ResolveUrl("~") %>logout.aspx"><i class="fa fa-sign-out pull-right"></i>Log Out</a></li>
+                                </ul>--%>
+
+                                <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                    <li><a href="<%=ResolveUrl("~") %>CDF/updateinfo.aspx">Personal Details </a></li>
+                                    <li><a href="<%=ResolveUrl("~") %>CDF/update-profile-pic.aspx">Update Profile Picture</a></li>
+                                     <li>
+                                        <a href="<%=ResolveUrl("~") %>CDF/education.aspx">
+                                            <span>Education</span>
+                                        </a>
+                                    </li>
+                                     <li><a href="<%=ResolveUrl("~") %>CDF/experience.aspx">Experience</a></li>
+                                    <li><a href="<%=ResolveUrl("~") %>CDF/bank-details.aspx">Bank Details</a></li>
+                                     <li><a href="<%=ResolveUrl("~") %>CDF/my-documents.aspx">My Documents</a></li>
+                                    <li><a href="<%=ResolveUrl("~") %>CDF/dheya-updates.aspx">Dheya Updates</a></li> 
+                                   
+                                    <li><a href="<%=ResolveUrl("~") %>CDF/change-password.aspx">Change Password</a></li>
+                                   
+                                    <li><a href="<%=ResolveUrl("~") %>logout.aspx"><i class="fa fa-sign-out pull-right"></i>Log Out</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                    <div class="icon">
+                                        <i class="fa fa-bell-o" aria-hidden="true"></i>
+                                        <asp:Label ID="lbl_count_note" runat="server" Text=""></asp:Label>
+                                        <span class=" fa fa-angle-down"></span>
+                                    </div>
+
+
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                    <li><a>New Message<asp:Label ID="lbl_Info" runat="server" CssClass="awesome" Text="-work in progress"></asp:Label></a></li>
+                                    <li><a>Dheya Updates<asp:Label ID="lbl_bank" runat="server" CssClass="awesome" Text="-work in progress"></asp:Label></a></li>
+                                </ul>
+                            </li>
+
+                            <li role="presentation" class="textMenu" style="margin: 17px 20px 0 0;">
+                                <p style="font-size: 14px;">Welcome to Dheya's CDF Dashboard</p>
+                            </li>
+
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- /top navigation -->
+
+
+        </div>
+    </div>
+  
+
+    <!-- jQuery -->
+    <%--<script src="<%=ResolveUrl("~") %>vendors/jquery/dist/jquery.min.js"></script>--%>
+    <!-- Bootstrap -->
+    <script src="<%=ResolveUrl("~") %>vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <%--    <script src="vendors/fastclick/lib/fastclick.js"></script>--%>
+    <!-- NProgress -->
+    <%--<script src="vendors/nprogress/nprogress.js"></script>--%>
+    <!-- Right Click Disable -->
+    <script type="text/javascript">
+        if (document.layers) {
+            //Capture the MouseDown event.
+            document.captureEvents(Event.MOUSEDOWN);
+
+            //Disable the OnMouseDown event handler.
+            document.onmousedown = function () {
+                return false;
+            };
+        }
+        else {
+            //Disable the OnMouseUp event handler.
+            document.onmouseup = function (e) {
+                if (e != null && e.type == "mouseup") {
+                    //Check the Mouse Button which is clicked.
+                    if (e.which == 2 || e.which == 3) {
+                        //If the Button is middle or right then disable.
+                        return false;
+                    }
+                }
+            };
+        }
+
+        //Disable the Context Menu event.
+        document.oncontextmenu = function () {
+            return false;
+        };
+
+
+
+
+        //////////F12 disable code////////////////////////
+        document.onkeypress = function (event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                //alert('No F-12');
+                return false;
+            }
+        }
+        document.onmousedown = function (event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                //alert('No F-keys');
+                return false;
+            }
+        }
+        document.onkeydown = function (event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                //alert('No F-keys');
+                return false;
+            }
+        }
+        /////////////////////end///////////////////////
+
+        //////////ctrl+S disable code////////////////////////
+        $(document).bind('keydown', function (e) {
+            if (e.ctrlKey && (e.which == 83)) {
+                e.preventDefault();
+                //alert('Ctrl+S');
+                return false;
+            }
+        });
+        /////////////////////end///////////////////////
+        //////////ctrl+P disable code////////////////////////
+        $(document).bind('keydown', function (e) {
+            if (e.ctrlKey && (e.which == 80)) {
+                e.preventDefault();
+                //alert('Ctrl+S');
+                return false;
+            }
+        });
+        /////////////////////end///////////////////////
+
+    </script>
+    <!--Start of Tawk.to Script-->
+    <%-- <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/58b6c5b75b8fe5150ee976ca/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>--%>
+    <!--End of Tawk.to Script-->
+
+    <div style="margin-top: -10px;">
+        <div class="container body">
+            <!-- page content -->
+            <div class="right_col " role="main">
+                <div style="margin-bottom: 20px;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer content -->
+    <footer>
+        <div class="pull-left" style="margin-left: 240px">
+            © Copyright
+            <script>document.write(new Date().getFullYear());</script>
+            &nbsp;| <a href="https://dheya.com" target="_blank">Dheya Career Mentors</a>
+        </div>
+        <div class="clearfix"></div>
+    </footer>
+    <!-- /footer content -->
+</body>
+</html>

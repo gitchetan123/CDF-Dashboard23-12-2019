@@ -1,0 +1,14 @@
+2018-08-01 16:03:02,621 [9] ERROR candidatedetails - Page_Load -363 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 141
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 129
+ClientConnectionId:6b17063a-f53b-4e21-b9ee-efea380f6fa9
+Error Number:207,State:1,Class:16 
+ 
+2018-08-01 16:03:15,985 [9] ERROR candidatedetails - Page_Load -363 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 141
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 129
+ClientConnectionId:6b17063a-f53b-4e21-b9ee-efea380f6fa9
+Error Number:207,State:1,Class:16 
+ 

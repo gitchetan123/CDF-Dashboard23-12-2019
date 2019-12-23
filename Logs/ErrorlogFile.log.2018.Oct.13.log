@@ -1,0 +1,15 @@
+2018-10-13 14:05:13,714 [28] ERROR candidatedetails - Page_Load -363 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 141
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 129
+ClientConnectionId:af6113cb-1926-4b79-9a34-d37ced7c4014
+Error Number:207,State:1,Class:16 
+ 
+2018-10-13 14:15:41,007 [10] ERROR CDFMaster - Page_Init -44 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CDFMaster.Page_Init(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\CDFMaster.master.cs:line 19 
+ 

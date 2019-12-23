@@ -1,0 +1,63 @@
+2018-08-29 16:33:20,053 [21] ERROR Login1 - btn_login_Click -86 
+ System.InvalidCastException: Specified cast is not valid.
+   at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at Login1.btn_login_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\Login.aspx.cs:line 40 
+ 
+2018-08-29 16:33:22,006 [7] ERROR Login1 - btn_login_Click -86 
+ System.InvalidCastException: Specified cast is not valid.
+   at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at Login1.btn_login_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\Login.aspx.cs:line 40 
+ 
+2018-08-29 16:33:23,137 [16] ERROR Login1 - btn_login_Click -86 
+ System.InvalidCastException: Specified cast is not valid.
+   at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at Login1.btn_login_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\Login.aspx.cs:line 40 
+ 
+2018-08-29 16:34:00,640 [7] ERROR Login1 - btn_login_Click -86 
+ System.InvalidCastException: Specified cast is not valid.
+   at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at Login1.btn_login_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\Login.aspx.cs:line 40 
+ 
+2018-08-29 16:34:06,745 [21] ERROR Login1 - btn_login_Click -86 
+ System.InvalidCastException: Specified cast is not valid.
+   at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at Login1.btn_login_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\Login.aspx.cs:line 40 
+ 
+2018-08-29 16:34:16,099 [21] ERROR Login1 - btn_login_Click -86 
+ System.InvalidCastException: Specified cast is not valid.
+   at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at Login1.btn_login_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\Login.aspx.cs:line 40 
+ 
+2018-08-29 16:35:50,997 [21] ERROR Login1 - btn_login_Click -86 
+ System.InvalidCastException: Specified cast is not valid.
+   at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at Login1.btn_login_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\Login.aspx.cs:line 40 
+ 
+2018-08-29 19:03:15,041 [57] ERROR candidatedetails - Page_Load -363 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 141
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 129
+ClientConnectionId:905ba489-d756-4ba5-b0d1-6eb60fef1ba3
+Error Number:207,State:1,Class:16 
+ 
+2018-08-29 19:03:26,665 [57] ERROR candidatedetails - Page_Load -363 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 141
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 129
+ClientConnectionId:905ba489-d756-4ba5-b0d1-6eb60fef1ba3
+Error Number:207,State:1,Class:16 
+ 
+2018-08-29 19:03:48,047 [58] ERROR candidatedetails - Page_Load -363 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 141
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 129
+ClientConnectionId:905ba489-d756-4ba5-b0d1-6eb60fef1ba3
+Error Number:207,State:1,Class:16 
+ 

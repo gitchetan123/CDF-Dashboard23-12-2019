@@ -1,0 +1,129 @@
+2018-11-24 10:41:14,717 [20] ERROR Filter_PersonalityFilter - btn_preview_Click -611 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Filter_PersonalityFilter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 102
+ClientConnectionId:11be2b87-eaf4-439b-8435-3154f5753d0a
+Error Number:102,State:1,Class:15 
+ 
+2018-11-24 11:02:20,487 [20] ERROR Filter_PersonalityFilter - btn_preview_Click -611 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Filter_PersonalityFilter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 102
+ClientConnectionId:11be2b87-eaf4-439b-8435-3154f5753d0a
+Error Number:102,State:1,Class:15 
+ 
+2018-11-24 11:45:24,203 [8] ERROR Filter_PersonalityFilter - btn_preview_Click -611 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Filter_PersonalityFilter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 205
+ClientConnectionId:ccd56df7-ce9e-4be5-bf36-c14c9dd91d34
+Error Number:102,State:1,Class:15 
+ 
+2018-11-24 11:52:10,572 [30] ERROR Filter_PersonalityFilter - btn_preview_Click -611 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Filter_PersonalityFilter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 102
+ClientConnectionId:b1b41000-cf6a-40a9-8972-f107d1f9a0f0
+Error Number:102,State:1,Class:15 
+ 
+2018-11-24 12:45:43,140 [63] ERROR Filter_PersonalityFilter - btn_preview_Click -611 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Filter_PersonalityFilter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 102
+ClientConnectionId:48eb2f7e-a7bd-494e-bcb8-59442449df8c
+Error Number:102,State:1,Class:15 
+ 
+2018-11-24 12:46:00,641 [63] ERROR Filter_PersonalityFilter - btn_preview_Click -611 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Filter_PersonalityFilter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 102
+ClientConnectionId:48eb2f7e-a7bd-494e-bcb8-59442449df8c
+Error Number:102,State:1,Class:15 
+ 
+2018-11-24 15:44:27,013 [9] ERROR Filter_PersonalityFilter - btn_preview_Click -659 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Filter_PersonalityFilter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 253
+ClientConnectionId:b366a1fc-759b-49a6-8ea2-57ed5d99a4ee
+Error Number:102,State:1,Class:15 
+ 
+2018-11-24 15:44:59,561 [5] ERROR Filter_PersonalityFilter - btn_preview_Click -659 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Filter_PersonalityFilter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 253
+ClientConnectionId:b366a1fc-759b-49a6-8ea2-57ed5d99a4ee
+Error Number:102,State:1,Class:15 
+ 
+2018-11-24 15:49:16,910 [8] ERROR Filter_PersonalityFilter - btn_preview_Click -667 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Filter_PersonalityFilter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 261
+ClientConnectionId:b366a1fc-759b-49a6-8ea2-57ed5d99a4ee
+Error Number:102,State:1,Class:15 
+ 
+2018-11-24 15:50:18,248 [11] ERROR Filter_PersonalityFilter - btn_preview_Click -667 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Filter_PersonalityFilter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 261
+ClientConnectionId:b366a1fc-759b-49a6-8ea2-57ed5d99a4ee
+Error Number:102,State:1,Class:15 
+ 
+2018-11-24 15:50:27,367 [8] ERROR Filter_PersonalityFilter - btn_preview_Click -667 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Filter_PersonalityFilter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 261
+ClientConnectionId:b366a1fc-759b-49a6-8ea2-57ed5d99a4ee
+Error Number:102,State:1,Class:15 
+ 
+2018-11-24 15:50:37,919 [8] ERROR Filter_PersonalityFilter - btn_preview_Click -667 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Filter_PersonalityFilter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 261
+ClientConnectionId:b366a1fc-759b-49a6-8ea2-57ed5d99a4ee
+Error Number:102,State:1,Class:15 
+ 
+2018-11-24 15:53:49,548 [6] ERROR Filter_PersonalityFilter - Page_Load -36 
+ System.IndexOutOfRangeException: Cannot find column 1.
+   at System.Data.DataColumnCollection.get_Item(Int32 index)
+   at Filter_PersonalityFilter.bind_drop_personality1() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 51
+   at Filter_PersonalityFilter.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 31 
+ 
+2018-11-24 15:53:53,288 [13] ERROR Filter_PersonalityFilter - Page_Load -36 
+ System.IndexOutOfRangeException: Cannot find column 1.
+   at System.Data.DataColumnCollection.get_Item(Int32 index)
+   at Filter_PersonalityFilter.bind_drop_personality1() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 51
+   at Filter_PersonalityFilter.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 31 
+ 
+2018-11-24 16:13:50,393 [8] ERROR Filter_PersonalityFilter - btn_preview_Click -667 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Filter_PersonalityFilter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 158
+ClientConnectionId:b366a1fc-759b-49a6-8ea2-57ed5d99a4ee
+Error Number:102,State:1,Class:15 
+ 

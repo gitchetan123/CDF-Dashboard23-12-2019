@@ -1,0 +1,174 @@
+2018-09-24 12:29:38,545 [10] ERROR Admin_find_coordinates - FindCoordinates -61 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 39 
+ 
+2018-09-24 12:34:42,227 [6] ERROR Admin_find_coordinates - FindCoordinates -61 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 28 
+ 
+2018-09-24 12:36:49,593 [13] ERROR Admin_find_coordinates - FindCoordinates -61 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 28 
+ 
+2018-09-24 12:37:01,290 [13] ERROR Admin_find_coordinates - FindCoordinates -61 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 28 
+ 
+2018-09-24 12:37:26,447 [6] ERROR Admin_find_coordinates - FindCoordinates -61 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 28 
+ 
+2018-09-24 12:37:33,759 [15] ERROR Admin_find_coordinates - FindCoordinates -61 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 28 
+ 
+2018-09-24 12:37:58,407 [6] ERROR Admin_find_coordinates - FindCoordinates -61 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 28 
+ 
+2018-09-24 12:38:07,787 [14] ERROR Admin_find_coordinates - FindCoordinates -61 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 28 
+ 
+2018-09-24 12:38:15,718 [15] ERROR Admin_find_coordinates - FindCoordinates -61 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 28 
+ 
+2018-09-24 12:38:30,119 [16] ERROR Admin_find_coordinates - FindCoordinates -61 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 28 
+ 
+2018-09-24 12:38:41,474 [16] ERROR Admin_find_coordinates - FindCoordinates -61 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 28 
+ 
+2018-09-24 12:38:52,146 [16] ERROR Admin_find_coordinates - FindCoordinates -61 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 28 
+ 
+2018-09-24 12:39:00,749 [14] ERROR Admin_find_coordinates - FindCoordinates -61 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 28 
+ 
+2018-09-24 12:39:59,347 [15] ERROR Admin_find_coordinates - FindCoordinates -61 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 28 
+ 
+2018-09-24 12:43:40,949 [16] ERROR Admin_find_coordinates - FindCoordinates -61 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 28 
+ 
+2018-09-24 15:05:45,737 [18] ERROR candidatedetails - Page_Load -363 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 141
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 129
+ClientConnectionId:7c294d47-897b-4700-aee5-afb5ab8f7795
+Error Number:207,State:1,Class:16 
+ 
+2018-09-24 15:13:05,505 [9] ERROR Admin_UpdateInfo - btn_submit_Click -280 
+ System.Data.SqlClient.SqlException (0x80131904): Error converting data type varchar to bigint.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Admin_UpdateInfo.btn_submit_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\Update_Info.aspx.cs:line 253
+ClientConnectionId:0a82f569-6481-4a00-a4d4-5ce14c0cb250
+Error Number:8114,State:5,Class:16 
+ 
+2018-09-24 15:14:00,670 [16] ERROR Admin_UpdateInfo - ddl_state_SelectedIndexChanged -298 
+ System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the varchar value '--Select--' to data type int.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 463
+   at Admin_UpdateInfo.ddl_state_SelectedIndexChanged(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\Update_Info.aspx.cs:line 293
+ClientConnectionId:0a82f569-6481-4a00-a4d4-5ce14c0cb250
+Error Number:245,State:1,Class:16 
+ 
+2018-09-24 15:14:04,722 [9] ERROR Admin_UpdateInfo - ddl_state_SelectedIndexChanged -298 
+ System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the varchar value '--Select--' to data type int.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 463
+   at Admin_UpdateInfo.ddl_state_SelectedIndexChanged(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\Update_Info.aspx.cs:line 293
+ClientConnectionId:0a82f569-6481-4a00-a4d4-5ce14c0cb250
+Error Number:245,State:1,Class:16 
+ 
+2018-09-24 15:14:12,034 [9] ERROR Admin_UpdateInfo - ddl_state_SelectedIndexChanged -298 
+ System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the varchar value '--Select--' to data type int.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 463
+   at Admin_UpdateInfo.ddl_state_SelectedIndexChanged(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\Update_Info.aspx.cs:line 293
+ClientConnectionId:0a82f569-6481-4a00-a4d4-5ce14c0cb250
+Error Number:245,State:1,Class:16 
+ 
+2018-09-24 15:14:14,806 [9] ERROR Admin_UpdateInfo - ddl_state_SelectedIndexChanged -298 
+ System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the varchar value '--Select--' to data type int.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 463
+   at Admin_UpdateInfo.ddl_state_SelectedIndexChanged(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\Update_Info.aspx.cs:line 293
+ClientConnectionId:0a82f569-6481-4a00-a4d4-5ce14c0cb250
+Error Number:245,State:1,Class:16 
+ 
+2018-09-24 15:16:27,413 [9] ERROR Admin_UpdateInfo - btn_submit_Click -280 
+ System.Data.SqlClient.SqlException (0x80131904): Error converting data type varchar to bigint.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Admin_UpdateInfo.btn_submit_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\Update_Info.aspx.cs:line 253
+ClientConnectionId:7e2b9a9b-4714-4262-a2cd-5fa9ab2b1186
+Error Number:8114,State:5,Class:16 
+ 
+2018-09-24 15:17:49,350 [18] ERROR Admin_UpdateInfo - btn_submit_Click -280 
+ System.Data.SqlClient.SqlException (0x80131904): Error converting data type varchar to bigint.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Admin_UpdateInfo.btn_submit_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\Update_Info.aspx.cs:line 253
+ClientConnectionId:7e2b9a9b-4714-4262-a2cd-5fa9ab2b1186
+Error Number:8114,State:5,Class:16 
+ 
+2018-09-24 15:19:15,678 [18] ERROR Admin_UpdateInfo - btn_submit_Click -280 
+ System.Data.SqlClient.SqlException (0x80131904): Error converting data type varchar to bigint.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Admin_UpdateInfo.btn_submit_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\Update_Info.aspx.cs:line 253
+ClientConnectionId:0a82f569-6481-4a00-a4d4-5ce14c0cb250
+Error Number:8114,State:5,Class:16 
+ 
+2018-09-24 15:22:51,375 [9] ERROR Admin_UpdateInfo - btn_submit_Click -280 
+ System.Data.SqlClient.SqlException (0x80131904): Error converting data type varchar to bigint.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Admin_UpdateInfo.btn_submit_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\Update_Info.aspx.cs:line 253
+ClientConnectionId:7e2b9a9b-4714-4262-a2cd-5fa9ab2b1186
+Error Number:8114,State:5,Class:16 
+ 

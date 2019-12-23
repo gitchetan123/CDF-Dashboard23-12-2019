@@ -1,0 +1,510 @@
+2019-01-02 10:16:38,706 [7] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-02 10:16:38,734 [7] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-02 10:16:38,762 [7] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-02 10:16:38,793 [7] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-02 10:16:38,808 [7] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-02 10:16:38,885 [7] ERROR home - dheyaUpdates -412 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at home.dheyaUpdates() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 394
+ClientConnectionId:7527748c-5b90-46ab-998a-45acd41c81f1
+Error Number:207,State:1,Class:16 
+ 
+2019-01-02 10:16:38,900 [7] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-02 10:20:38,624 [16] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-02 10:20:38,641 [16] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-02 10:20:38,667 [16] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-02 10:20:38,682 [16] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-02 10:20:38,710 [16] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-02 10:20:38,741 [16] ERROR home - dheyaUpdates -412 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at home.dheyaUpdates() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 394
+ClientConnectionId:5ba6c626-7d7e-454b-8e0a-fd094406b20a
+Error Number:207,State:1,Class:16 
+ 
+2019-01-02 10:20:38,764 [16] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-02 10:56:34,607 [32] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-02 10:56:34,634 [32] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-02 10:56:34,660 [32] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-02 10:56:34,682 [32] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-02 10:56:34,697 [32] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-02 10:56:34,737 [32] ERROR home - dheyaUpdates -412 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at home.dheyaUpdates() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 394
+ClientConnectionId:8a210566-573c-4af6-86fe-e362f6158af3
+Error Number:207,State:1,Class:16 
+ 
+2019-01-02 10:56:34,751 [32] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-02 11:00:07,674 [26] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-02 11:00:07,700 [26] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-02 11:00:07,717 [26] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-02 11:00:07,739 [26] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-02 11:00:07,755 [26] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-02 11:00:07,798 [26] ERROR home - dheyaUpdates -412 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at home.dheyaUpdates() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 394
+ClientConnectionId:65fef7c2-a58c-47f2-89cb-fee10a1d1084
+Error Number:207,State:1,Class:16 
+ 
+2019-01-02 11:00:07,812 [26] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-02 11:43:04,889 [10] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-02 11:43:04,906 [10] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-02 11:43:04,935 [10] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-02 11:43:04,951 [10] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-02 11:43:04,968 [10] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-02 11:43:05,092 [10] ERROR home - dheyaUpdates -412 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at home.dheyaUpdates() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 394
+ClientConnectionId:f10403d3-f232-4c54-a482-ab3e8ede6449
+Error Number:207,State:1,Class:16 
+ 
+2019-01-02 11:43:05,108 [10] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-02 15:09:21,262 [55] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-02 15:09:21,524 [55] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-02 15:09:21,551 [55] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-02 15:09:21,566 [55] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-02 15:09:21,595 [55] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-02 15:09:21,936 [55] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-02 15:34:58,308 [43] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-02 15:34:58,346 [43] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-02 15:34:58,368 [43] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-02 15:34:58,382 [43] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-02 15:34:58,398 [43] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-02 15:34:58,721 [43] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-02 15:36:14,846 [46] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-02 15:36:14,899 [46] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-02 15:36:14,917 [46] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-02 15:36:14,932 [46] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-02 15:36:14,958 [46] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-02 15:36:15,716 [46] ERROR home - dheyaUpdates -412 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at home.dheyaUpdates() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 394
+ClientConnectionId:8e075b36-a044-48bc-9200-2f695cfd3514
+Error Number:207,State:1,Class:16 
+ 
+2019-01-02 15:36:15,770 [46] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-02 16:49:59,369 [63] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-02 16:49:59,402 [63] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-02 16:49:59,428 [63] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-02 16:49:59,442 [63] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-02 16:49:59,458 [63] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-02 16:49:59,504 [63] ERROR home - dheyaUpdates -412 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at home.dheyaUpdates() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 394
+ClientConnectionId:299dea2a-6071-4425-ae94-7d298484cc06
+Error Number:207,State:1,Class:16 
+ 
+2019-01-02 16:49:59,519 [63] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-02 16:51:33,777 [44] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-02 16:51:33,810 [44] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-02 16:51:33,836 [44] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-02 16:51:33,850 [44] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-02 16:51:33,865 [44] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-02 16:51:33,906 [44] ERROR home - dheyaUpdates -412 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at home.dheyaUpdates() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 394
+ClientConnectionId:9ead584b-e700-49b2-8b1b-4c9b27a10875
+Error Number:207,State:1,Class:16 
+ 
+2019-01-02 16:51:33,921 [44] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-02 17:03:22,744 [43] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-02 17:03:22,767 [43] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-02 17:03:22,784 [43] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-02 17:03:22,798 [43] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-02 17:03:22,814 [43] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-02 17:03:22,856 [43] ERROR home - dheyaUpdates -412 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at home.dheyaUpdates() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 394
+ClientConnectionId:49fc4bd4-4ec1-410e-b853-5bdb7f3ba164
+Error Number:207,State:1,Class:16 
+ 
+2019-01-02 17:03:22,873 [43] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-02 17:03:52,119 [8] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-02 17:03:52,173 [8] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-02 17:03:52,189 [8] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-02 17:03:52,203 [8] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-02 17:03:52,229 [8] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-02 17:03:52,276 [8] ERROR home - dheyaUpdates -412 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at home.dheyaUpdates() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 394
+ClientConnectionId:393867d7-ac7d-4433-8703-a244b68b0ef4
+Error Number:207,State:1,Class:16 
+ 
+2019-01-02 17:03:52,298 [8] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-02 17:34:34,050 [31] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-02 17:34:34,078 [31] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-02 17:34:34,105 [31] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-02 17:34:34,120 [31] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-02 17:34:34,144 [31] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-02 17:34:34,176 [31] ERROR home - dheyaUpdates -412 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at home.dheyaUpdates() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 394
+ClientConnectionId:4cd57038-fccb-4621-b262-4895b4351d5a
+Error Number:207,State:1,Class:16 
+ 
+2019-01-02 17:34:34,190 [31] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 

@@ -1,0 +1,63 @@
+2019-01-17 15:26:03,193 [10] ERROR data_context - sendemail -52 
+ System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at data_context.sendemail(String to, String cc, String bcc, String subject, String body) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\data_context.cs:line 32 
+ 
+2019-01-17 15:26:07,487 [5] ERROR data_context - sendemail -52 
+ System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at data_context.sendemail(String to, String cc, String bcc, String subject, String body) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\data_context.cs:line 46 
+ 
+2019-01-17 15:28:37,402 [15] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-17 15:28:37,420 [15] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-17 15:28:37,439 [15] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-17 15:28:37,454 [15] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-17 15:28:37,483 [15] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-17 15:28:37,834 [15] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-17 15:29:54,676 [15] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-17 15:29:54,695 [15] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-17 15:29:54,710 [15] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-17 15:29:54,732 [15] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-17 15:29:54,746 [15] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-17 15:29:55,080 [15] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 

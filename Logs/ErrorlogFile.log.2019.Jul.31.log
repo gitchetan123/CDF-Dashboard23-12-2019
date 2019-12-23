@@ -1,0 +1,8 @@
+2019-07-31 18:42:40,253 [15] ERROR test - Page_Load -69 
+ System.InvalidOperationException: The connection was not closed. The connection's current state is open.
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at test.Page_Load(Object sender, EventArgs e) in d:\Github\CDF-Dashboard2017\pre\test.aspx.cs:line 33 
+ 

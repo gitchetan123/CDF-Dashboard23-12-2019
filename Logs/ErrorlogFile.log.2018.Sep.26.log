@@ -1,0 +1,66 @@
+2018-09-26 17:44:22,121 [10] ERROR Admin_find_coordinates - FindCoordinates -61 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 39 
+ 
+2018-09-26 18:03:12,072 [15] ERROR Admin_find_coordinates - FindCoordinates -62 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 40 
+ 
+2018-09-26 18:03:44,090 [23] ERROR Admin_find_coordinates - FindCoordinates -62 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 29 
+ 
+2018-09-26 18:07:34,904 [27] ERROR Admin_find_coordinates - FindCoordinates -62 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 40 
+ 
+2018-09-26 18:07:51,745 [24] ERROR Admin_find_coordinates - FindCoordinates -62 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 29 
+ 
+2018-09-26 18:10:22,317 [23] ERROR Admin_find_coordinates - FindCoordinates -62 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 29 
+ 
+2018-09-26 18:13:15,720 [21] ERROR Admin_find_coordinates - FindCoordinates -62 
+ System.Data.DuplicateNameException: A column named 'Id' already belongs to this DataTable.
+   at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at System.Data.DataColumnCollection.AddRange(DataColumn[] columns)
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 36 
+ 
+2018-09-26 18:14:30,255 [20] ERROR Admin_find_coordinates - FindCoordinates -62 
+ System.Data.DuplicateNameException: A column named 'Id' already belongs to this DataTable.
+   at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at System.Data.DataColumnCollection.AddRange(DataColumn[] columns)
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 36 
+ 
+2018-09-26 18:15:10,853 [16] ERROR Admin_find_coordinates - FindCoordinates -62 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 29 
+ 
+2018-09-26 18:15:49,731 [21] ERROR Admin_find_coordinates - FindCoordinates -62 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 29 
+ 
+2018-09-26 18:17:31,591 [17] ERROR Admin_find_coordinates - FindCoordinates -62 
+ System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 29 
+ 
+2018-09-26 18:20:17,683 [19] ERROR Admin_find_coordinates - FindCoordinates -62 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 40 
+ 
+2018-09-26 18:27:11,477 [19] ERROR Admin_find_coordinates - FindCoordinates -62 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_find_coordinates.FindCoordinates(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\find-coordinates.aspx.cs:line 40 
+ 

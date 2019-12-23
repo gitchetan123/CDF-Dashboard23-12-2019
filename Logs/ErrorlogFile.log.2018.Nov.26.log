@@ -1,0 +1,9 @@
+2018-11-26 09:54:58,570 [6] ERROR Filter_PersonalityFilter - btn_preview_Click -672 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Filter_PersonalityFilter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\personality-filter.aspx.cs:line 163
+ClientConnectionId:f5de34ed-77f3-451b-820f-25e35dfe3181
+Error Number:102,State:1,Class:15 
+ 

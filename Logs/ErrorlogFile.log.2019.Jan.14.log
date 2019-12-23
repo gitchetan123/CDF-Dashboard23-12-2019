@@ -1,0 +1,24 @@
+2019-01-14 14:07:43,505 [11] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-14 14:07:43,563 [11] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-14 14:07:43,581 [11] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-14 14:07:43,597 [11] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-14 14:07:43,622 [11] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-14 14:07:43,965 [11] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 

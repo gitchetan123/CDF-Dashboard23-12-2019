@@ -1,0 +1,14 @@
+2018-10-30 15:05:29,210 [13] ERROR AllFilter - btn_preview_Click -1453 
+ System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 's'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at AllFilter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\all-filter.aspx.cs:line 57
+ClientConnectionId:2c7e7801-42a1-4aaf-b4dc-3bd80cfa3004
+Error Number:2812,State:62,Class:16 
+ 
+2018-10-30 15:07:15,935 [18] ERROR AllFilter - btn_preview_Click -1453 
+ System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 's'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at AllFilter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\all-filter.aspx.cs:line 57
+ClientConnectionId:2c7e7801-42a1-4aaf-b4dc-3bd80cfa3004
+Error Number:2812,State:62,Class:16 
+ 

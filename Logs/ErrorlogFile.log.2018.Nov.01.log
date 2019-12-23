@@ -1,0 +1,166 @@
+2018-11-01 10:46:19,202 [12] ERROR Search_SearchCourse - binddata -73 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'course1'.
+Invalid column name 'course1'.
+Invalid column name 'course6'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Search_SearchCourse.binddata() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Search\SearchCourse.aspx.cs:line 61
+ClientConnectionId:be3d2e24-54f7-4965-9fef-6465ab25bad5
+Error Number:207,State:1,Class:16 
+ 
+2018-11-01 10:46:21,307 [12] ERROR Search_SearchCourse - binddata -73 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'course1'.
+Invalid column name 'course1'.
+Invalid column name 'course6'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Search_SearchCourse.binddata() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Search\SearchCourse.aspx.cs:line 61
+ClientConnectionId:be3d2e24-54f7-4965-9fef-6465ab25bad5
+Error Number:207,State:1,Class:16 
+ 
+2018-11-01 10:46:21,924 [7] ERROR Search_SearchCourse - binddata -73 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'course1'.
+Invalid column name 'course1'.
+Invalid column name 'course6'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Search_SearchCourse.binddata() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Search\SearchCourse.aspx.cs:line 61
+ClientConnectionId:be3d2e24-54f7-4965-9fef-6465ab25bad5
+Error Number:207,State:1,Class:16 
+ 
+2018-11-01 10:46:22,327 [12] ERROR Search_SearchCourse - binddata -73 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'course1'.
+Invalid column name 'course1'.
+Invalid column name 'course6'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Search_SearchCourse.binddata() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Search\SearchCourse.aspx.cs:line 61
+ClientConnectionId:be3d2e24-54f7-4965-9fef-6465ab25bad5
+Error Number:207,State:1,Class:16 
+ 
+2018-11-01 10:46:22,616 [12] ERROR Search_SearchCourse - binddata -73 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'course1'.
+Invalid column name 'course1'.
+Invalid column name 'course6'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Search_SearchCourse.binddata() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Search\SearchCourse.aspx.cs:line 61
+ClientConnectionId:be3d2e24-54f7-4965-9fef-6465ab25bad5
+Error Number:207,State:1,Class:16 
+ 
+2018-11-01 10:46:22,920 [12] ERROR Search_SearchCourse - binddata -73 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'course1'.
+Invalid column name 'course1'.
+Invalid column name 'course6'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Search_SearchCourse.binddata() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Search\SearchCourse.aspx.cs:line 61
+ClientConnectionId:be3d2e24-54f7-4965-9fef-6465ab25bad5
+Error Number:207,State:1,Class:16 
+ 
+2018-11-01 10:46:23,155 [12] ERROR Search_SearchCourse - binddata -73 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'course1'.
+Invalid column name 'course1'.
+Invalid column name 'course6'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Search_SearchCourse.binddata() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Search\SearchCourse.aspx.cs:line 61
+ClientConnectionId:be3d2e24-54f7-4965-9fef-6465ab25bad5
+Error Number:207,State:1,Class:16 
+ 
+2018-11-01 10:46:23,526 [7] ERROR Search_SearchCourse - binddata -73 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'course1'.
+Invalid column name 'course1'.
+Invalid column name 'course6'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Search_SearchCourse.binddata() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Search\SearchCourse.aspx.cs:line 61
+ClientConnectionId:be3d2e24-54f7-4965-9fef-6465ab25bad5
+Error Number:207,State:1,Class:16 
+ 
+2018-11-01 10:46:23,841 [12] ERROR Search_SearchCourse - binddata -73 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'course1'.
+Invalid column name 'course1'.
+Invalid column name 'course6'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Search_SearchCourse.binddata() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Search\SearchCourse.aspx.cs:line 61
+ClientConnectionId:be3d2e24-54f7-4965-9fef-6465ab25bad5
+Error Number:207,State:1,Class:16 
+ 
+2018-11-01 10:46:24,194 [12] ERROR Search_SearchCourse - binddata -73 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'course1'.
+Invalid column name 'course1'.
+Invalid column name 'course6'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Search_SearchCourse.binddata() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Search\SearchCourse.aspx.cs:line 61
+ClientConnectionId:be3d2e24-54f7-4965-9fef-6465ab25bad5
+Error Number:207,State:1,Class:16 
+ 
+2018-11-01 10:46:26,765 [7] ERROR Search_SearchCourse - binddata -73 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'course1'.
+Invalid column name 'course1'.
+Invalid column name 'course6'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Search_SearchCourse.binddata() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Search\SearchCourse.aspx.cs:line 61
+ClientConnectionId:be3d2e24-54f7-4965-9fef-6465ab25bad5
+Error Number:207,State:1,Class:16 
+ 
+2018-11-01 10:46:27,998 [5] ERROR Search_SearchCourse - binddata -73 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'course1'.
+Invalid column name 'course1'.
+Invalid column name 'course6'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Search_SearchCourse.binddata() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Search\SearchCourse.aspx.cs:line 61
+ClientConnectionId:be3d2e24-54f7-4965-9fef-6465ab25bad5
+Error Number:207,State:1,Class:16 
+ 
+2018-11-01 10:46:28,700 [12] ERROR Search_SearchCourse - binddata -73 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'course1'.
+Invalid column name 'course1'.
+Invalid column name 'course6'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Search_SearchCourse.binddata() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Search\SearchCourse.aspx.cs:line 61
+ClientConnectionId:be3d2e24-54f7-4965-9fef-6465ab25bad5
+Error Number:207,State:1,Class:16 
+ 
+2018-11-01 10:46:29,767 [7] ERROR Search_SearchCourse - binddata -73 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'course1'.
+Invalid column name 'course1'.
+Invalid column name 'course6'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Search_SearchCourse.binddata() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Search\SearchCourse.aspx.cs:line 61
+ClientConnectionId:be3d2e24-54f7-4965-9fef-6465ab25bad5
+Error Number:207,State:1,Class:16 
+ 
+2018-11-01 10:46:53,909 [12] ERROR Search_SearchCourse - binddata -73 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'course1'.
+Invalid column name 'course1'.
+Invalid column name 'course6'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Search_SearchCourse.binddata() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Search\SearchCourse.aspx.cs:line 61
+ClientConnectionId:be3d2e24-54f7-4965-9fef-6465ab25bad5
+Error Number:207,State:1,Class:16 
+ 
+2018-11-01 10:52:23,788 [10] ERROR Search_SearchCourse - binddata -73 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'course1'.
+Invalid column name 'course1'.
+Invalid column name 'course6'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at Search_SearchCourse.binddata() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Search\SearchCourse.aspx.cs:line 61
+ClientConnectionId:be3d2e24-54f7-4965-9fef-6465ab25bad5
+Error Number:207,State:1,Class:16 
+ 
+2018-11-01 11:03:22,864 [10] ERROR Search_SearchCourse - binddata -73 
+ System.Web.HttpException (0x80004005): A field or property with the name 'course1' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Search_SearchCourse.binddata() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Search\SearchCourse.aspx.cs:line 66 
+ 

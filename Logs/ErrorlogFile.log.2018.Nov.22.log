@@ -1,0 +1,55 @@
+2018-11-22 12:59:35,042 [11] ERROR candidatedetails - Page_Load -59 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 47 
+ 
+2018-11-22 13:03:07,528 [8] ERROR candidatedetails - Page_Load -59 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 47 
+ 
+2018-11-22 13:03:12,492 [8] ERROR candidatedetails - Page_Load -59 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 47 
+ 
+2018-11-22 14:44:25,970 [9] ERROR candidatedetails - Page_Load -109 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.read_data_by_id() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 656
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 69 
+ 
+2018-11-22 14:45:13,234 [9] ERROR candidatedetails - Page_Load -109 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.read_data_by_id() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 656
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 69 
+ 
+2018-11-22 14:59:47,826 [16] ERROR candidatedetails - Page_Load -110 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.get_count() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 665
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 73 
+ 
+2018-11-22 15:01:31,048 [16] ERROR candidatedetails - Page_Load -110 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.get_count() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 665
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 73 
+ 
+2018-11-22 15:02:06,348 [16] ERROR candidatedetails - Page_Load -59 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 47 
+ 
+2018-11-22 15:09:27,608 [13] ERROR candidatedetails - Page_Load -58 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.get_count() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 664
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 54 
+ 
+2018-11-22 18:20:30,703 [16] ERROR login - btn_login_Click -136 
+ System.IndexOutOfRangeException: IsAllowReport
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at login.btn_login_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\login.aspx.cs:line 73 
+ 
+2018-11-22 18:20:37,383 [16] ERROR login - btn_login_Click -136 
+ System.IndexOutOfRangeException: IsAllowReport
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at login.btn_login_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\login.aspx.cs:line 73 
+ 

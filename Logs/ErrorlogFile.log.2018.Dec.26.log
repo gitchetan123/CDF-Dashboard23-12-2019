@@ -1,0 +1,544 @@
+2018-12-26 11:37:30,580 [32] ERROR candidatedetails - Page_Load -60 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 47 
+ 
+2018-12-26 13:05:56,634 [21] ERROR candidatedetails - btn_saveBusinessList_Click -1110 
+ System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'sp_Save_CDF_Business' expects parameter '@created_date', which was not supplied.
+   at db_context.ExecNonQuery(String queryUpdate, Int32 c_id, Boolean GBL, String GBLStatus, String StoreCode, String comment, Int32 createdBy, Int32 updatedBy) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 181
+   at candidatedetails.btn_saveBusinessList_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 1105
+ClientConnectionId:d815dfdb-513b-4f80-a3ff-d5fd021cd1f8
+Error Number:201,State:4,Class:16 
+ 
+2018-12-26 13:06:21,153 [55] ERROR candidatedetails - Page_Load -60 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 47 
+ 
+2018-12-26 13:07:44,857 [55] ERROR candidatedetails - btn_saveBusinessList_Click -1110 
+ System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_tblUserBusiness_tblUserMaster". The conflict occurred in database "MobileAppDB1", table "dbo.tblUserMaster", column 'uId'.
+The statement has been terminated.
+   at db_context.ExecNonQuery(String queryUpdate, Int32 c_id, Boolean GBL, String GBLStatus, String StoreCode, String comment, Int32 createdBy, Int32 updatedBy) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 181
+   at candidatedetails.btn_saveBusinessList_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 1105
+ClientConnectionId:9591e01b-5ba5-4dae-b77d-53bfed57ebcc
+Error Number:547,State:0,Class:16 
+ 
+2018-12-26 14:41:35,823 [59] ERROR candidatedetails - Page_Load -60 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 47 
+ 
+2018-12-26 15:21:36,129 [43] ERROR Admin_google_business_listing - Page_Load -32 
+ System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'id'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Admin_google_business_listing.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 27 
+ 
+2018-12-26 15:26:11,767 [42] ERROR Admin_google_business_listing - Page_Load -32 
+ System.Web.HttpException (0x80004005): A field or property with the name 'regDateTime' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Admin_google_business_listing.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 27 
+ 
+2018-12-26 15:26:42,233 [43] ERROR Admin_google_business_listing - BindUserBusiness -327 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'regDateTimeB'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 320
+ClientConnectionId:278359a0-e514-4bd8-a3ac-1865b17dc2bc
+Error Number:207,State:1,Class:16 
+ 
+2018-12-26 15:26:51,115 [43] ERROR Admin_google_business_listing - BindUserBusiness -327 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '.'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 320
+ClientConnectionId:278359a0-e514-4bd8-a3ac-1865b17dc2bc
+Error Number:102,State:1,Class:15 
+ 
+2018-12-26 15:27:13,536 [37] ERROR Admin_google_business_listing - BindUserBusiness -327 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '.'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 320
+ClientConnectionId:278359a0-e514-4bd8-a3ac-1865b17dc2bc
+Error Number:102,State:1,Class:15 
+ 
+2018-12-26 15:27:34,806 [40] ERROR Admin_google_business_listing - BindUserBusiness -327 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '.'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 320
+ClientConnectionId:278359a0-e514-4bd8-a3ac-1865b17dc2bc
+Error Number:102,State:1,Class:15 
+ 
+2018-12-26 15:42:49,882 [53] ERROR Admin_google_business_listing - clear -411 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 397 
+ 
+2018-12-26 15:42:50,108 [53] ERROR Admin_google_business_listing - btn_preview_Click -53 
+ System.Web.HttpException (0x80004005): A field or property with the name 'email' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Admin_google_business_listing.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 48 
+ 
+2018-12-26 15:43:00,951 [53] ERROR Admin_google_business_listing - clear -411 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 397 
+ 
+2018-12-26 15:43:01,134 [53] ERROR Admin_google_business_listing - btn_preview_Click -53 
+ System.Web.HttpException (0x80004005): A field or property with the name 'email' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Admin_google_business_listing.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 48 
+ 
+2018-12-26 15:43:55,345 [50] ERROR Admin_google_business_listing - clear -412 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 398 
+ 
+2018-12-26 15:43:55,605 [50] ERROR Admin_google_business_listing - btn_preview_Click -53 
+ System.Web.HttpException (0x80004005): A field or property with the name 'email' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Admin_google_business_listing.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 48 
+ 
+2018-12-26 15:45:00,238 [50] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:45:00,422 [50] ERROR Admin_google_business_listing - BindUserBusiness -342 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'or'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 335
+ClientConnectionId:937ef7ef-11d6-4ab7-a17d-f8b89522cb05
+Error Number:156,State:1,Class:15 
+ 
+2018-12-26 15:45:24,577 [48] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:45:49,978 [48] ERROR Admin_google_business_listing - BindUserBusiness -342 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'or'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 335
+ClientConnectionId:937ef7ef-11d6-4ab7-a17d-f8b89522cb05
+Error Number:156,State:1,Class:15 
+ 
+2018-12-26 15:46:04,125 [8] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:46:06,049 [8] ERROR Admin_google_business_listing - BindUserBusiness -342 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'or'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 335
+ClientConnectionId:937ef7ef-11d6-4ab7-a17d-f8b89522cb05
+Error Number:156,State:1,Class:15 
+ 
+2018-12-26 15:46:09,222 [8] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:46:26,489 [8] ERROR Admin_google_business_listing - BindUserBusiness -342 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'or'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 335
+ClientConnectionId:937ef7ef-11d6-4ab7-a17d-f8b89522cb05
+Error Number:156,State:1,Class:15 
+ 
+2018-12-26 15:46:28,844 [8] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:47:19,924 [8] ERROR Admin_google_business_listing - BindUserBusiness -342 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'or'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 335
+ClientConnectionId:937ef7ef-11d6-4ab7-a17d-f8b89522cb05
+Error Number:156,State:1,Class:15 
+ 
+2018-12-26 15:47:29,369 [8] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:47:46,681 [50] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:49:29,429 [48] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:49:31,004 [48] ERROR Admin_google_business_listing - BindUserBusiness -342 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'B'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 335
+ClientConnectionId:937ef7ef-11d6-4ab7-a17d-f8b89522cb05
+Error Number:102,State:1,Class:15 
+ 
+2018-12-26 15:49:37,234 [50] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:49:37,987 [50] ERROR Admin_google_business_listing - BindUserBusiness -342 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'B'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 335
+ClientConnectionId:937ef7ef-11d6-4ab7-a17d-f8b89522cb05
+Error Number:102,State:1,Class:15 
+ 
+2018-12-26 15:49:48,722 [50] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:50:06,569 [50] ERROR Admin_google_business_listing - BindUserBusiness -342 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'B'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 335
+ClientConnectionId:937ef7ef-11d6-4ab7-a17d-f8b89522cb05
+Error Number:102,State:1,Class:15 
+ 
+2018-12-26 15:50:16,262 [52] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:50:16,972 [52] ERROR Admin_google_business_listing - BindUserBusiness -342 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'B'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 335
+ClientConnectionId:937ef7ef-11d6-4ab7-a17d-f8b89522cb05
+Error Number:102,State:1,Class:15 
+ 
+2018-12-26 15:50:21,628 [52] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:50:22,914 [52] ERROR Admin_google_business_listing - BindUserBusiness -342 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'B'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 335
+ClientConnectionId:937ef7ef-11d6-4ab7-a17d-f8b89522cb05
+Error Number:102,State:1,Class:15 
+ 
+2018-12-26 15:50:25,377 [50] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:51:36,366 [50] ERROR Admin_google_business_listing - BindUserBusiness -342 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'B'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 335
+ClientConnectionId:937ef7ef-11d6-4ab7-a17d-f8b89522cb05
+Error Number:102,State:1,Class:15 
+ 
+2018-12-26 15:51:46,166 [25] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:51:53,668 [48] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:52:00,083 [25] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:52:16,337 [48] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:53:44,805 [25] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:53:51,286 [32] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 15:54:13,946 [48] ERROR Admin_google_business_listing - BindUserBusiness -342 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'order'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 335
+ClientConnectionId:937ef7ef-11d6-4ab7-a17d-f8b89522cb05
+Error Number:156,State:1,Class:15 
+ 
+2018-12-26 15:55:11,452 [32] ERROR Admin_google_business_listing - BindUserBusiness -342 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'order'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 335
+ClientConnectionId:937ef7ef-11d6-4ab7-a17d-f8b89522cb05
+Error Number:156,State:1,Class:15 
+ 
+2018-12-26 15:59:57,981 [52] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 16:00:06,290 [52] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 16:00:16,898 [52] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 16:00:23,195 [52] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 16:00:27,462 [32] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 16:04:09,402 [33] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 16:04:19,744 [32] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 16:04:25,864 [47] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 16:04:34,144 [33] ERROR Admin_google_business_listing - clear -413 
+ System.ArgumentOutOfRangeException: 'ddl_cdfLevel' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at Admin_google_business_listing.clear() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 399 
+ 
+2018-12-26 16:42:50,145 [49] ERROR candidatedetails - Page_Load -488 
+ System.ArgumentException: Column 'comment' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 440 
+ 
+2018-12-26 16:44:20,564 [43] ERROR candidatedetails - Page_Load -488 
+ System.ArgumentException: Column 'comment' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 440 
+ 
+2018-12-26 16:44:34,876 [43] ERROR candidatedetails - Page_Load -488 
+ System.ArgumentException: Column 'comment' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 440 
+ 
+2018-12-26 16:47:52,532 [29] ERROR candidatedetails - Page_Load -488 
+ System.ArgumentException: Column 'comment' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 440 
+ 
+2018-12-26 16:47:58,857 [50] ERROR candidatedetails - Page_Load -488 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'store_codeUB'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 132
+ClientConnectionId:55888858-bc16-493a-b632-3c51ad95afae
+Error Number:207,State:1,Class:16 
+ 
+2018-12-26 16:48:08,585 [50] ERROR candidatedetails - Page_Load -488 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'store_codeUB'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 132
+ClientConnectionId:55888858-bc16-493a-b632-3c51ad95afae
+Error Number:207,State:1,Class:16 
+ 
+2018-12-26 16:48:28,397 [29] ERROR candidatedetails - Page_Load -488 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'store_codeUB'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 132
+ClientConnectionId:55888858-bc16-493a-b632-3c51ad95afae
+Error Number:207,State:1,Class:16 
+ 
+2018-12-26 16:49:03,524 [50] ERROR candidatedetails - Page_Load -488 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'store_codeUB'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 264
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 132
+ClientConnectionId:55888858-bc16-493a-b632-3c51ad95afae
+Error Number:207,State:1,Class:16 
+ 
+2018-12-26 16:49:10,356 [42] ERROR candidatedetails - Page_Load -488 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 443 
+ 
+2018-12-26 16:50:01,223 [36] ERROR candidatedetails - Page_Load -488 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 443 
+ 
+2018-12-26 16:50:08,434 [42] ERROR candidatedetails - Page_Load -488 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 443 
+ 
+2018-12-26 16:50:23,863 [36] ERROR candidatedetails - Page_Load -488 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 443 
+ 
+2018-12-26 16:54:01,571 [36] ERROR candidatedetails - Page_Load -488 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 443 
+ 
+2018-12-26 17:29:38,418 [43] ERROR candidatedetails - Page_Load -65 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 47 
+ 
+2018-12-26 17:46:10,488 [48] ERROR candidatedetails - Page_Load -65 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 47 
+ 

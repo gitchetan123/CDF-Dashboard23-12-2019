@@ -1,0 +1,169 @@
+2018-12-12 10:02:37,239 [5] ERROR candidatedetails - Page_Load -462 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 131
+ClientConnectionId:05b9bfa1-a768-400f-b124-8b840c881fe2
+Error Number:207,State:1,Class:16 
+ 
+2018-12-12 12:18:41,325 [9] ERROR candidatedetails - Page_Load -474 
+ System.ArgumentException: Column 'batchId_L2' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 405 
+ 
+2018-12-12 12:20:27,332 [55] ERROR candidatedetails - Page_Load -474 
+ System.ArgumentException: Column 'batchId_L2' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 405 
+ 
+2018-12-12 12:21:15,003 [9] ERROR candidatedetails - Page_Load -474 
+ System.ArgumentException: Column 'batchId_L2' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 405 
+ 
+2018-12-12 12:23:52,864 [55] ERROR candidatedetails - Page_Load -474 
+ System.ArgumentException: Column 'batchId_L2' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 405 
+ 
+2018-12-12 12:23:58,623 [60] ERROR candidatedetails - Page_Load -60 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 47 
+ 
+2018-12-12 12:24:09,853 [60] ERROR candidatedetails - Page_Load -474 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 407 
+ 
+2018-12-12 12:25:25,237 [55] ERROR candidatedetails - Page_Load -474 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 407 
+ 
+2018-12-12 12:27:41,100 [55] ERROR candidatedetails - Page_Load -474 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 407 
+ 
+2018-12-12 12:28:28,891 [57] ERROR candidatedetails - Page_Load -475 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 408 
+ 
+2018-12-12 12:28:46,216 [56] ERROR candidatedetails - Page_Load -476 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 410 
+ 
+2018-12-12 12:57:43,971 [54] ERROR candidatedetails - Page_Load -472 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 411 
+ 
+2018-12-12 12:59:27,534 [54] ERROR candidatedetails - Page_Load -472 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 411 
+ 
+2018-12-12 13:03:29,965 [62] ERROR candidatedetails - Page_Load -472 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 411 
+ 
+2018-12-12 13:03:40,218 [60] ERROR candidatedetails - Page_Load -472 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 411 
+ 
+2018-12-12 13:06:17,178 [5] ERROR candidatedetails - Page_Load -505 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 411 
+ 
+2018-12-12 13:08:17,113 [57] ERROR candidatedetails - Page_Load -505 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 411 
+ 
+2018-12-12 13:08:24,663 [57] ERROR candidatedetails - Page_Load -505 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 461 
+ 
+2018-12-12 13:12:12,298 [57] ERROR candidatedetails - Page_Load -505 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 461 
+ 
+2018-12-12 13:14:09,418 [57] ERROR candidatedetails - Page_Load -505 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 461 
+ 
+2018-12-12 13:49:46,898 [64] ERROR candidatedetails - Page_Load -505 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 461 
+ 
+2018-12-12 13:49:55,496 [55] ERROR candidatedetails - Page_Load -505 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 461 
+ 
+2018-12-12 13:54:10,010 [55] ERROR candidatedetails - Page_Load -505 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 431 
+ 
+2018-12-12 13:54:17,910 [55] ERROR candidatedetails - Page_Load -505 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 431 
+ 
+2018-12-12 13:55:26,168 [9] ERROR candidatedetails - Page_Load -505 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 431 
+ 
+2018-12-12 13:55:55,628 [12] ERROR candidatedetails - Page_Load -505 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 431 
+ 
+2018-12-12 13:56:54,618 [55] ERROR candidatedetails - Page_Load -505 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 431 
+ 
+2018-12-12 15:03:20,059 [36] ERROR candidatedetails - Page_Load -60 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 47 
+ 
+2018-12-12 16:58:57,773 [56] ERROR Admin_training_batchwise_cdfList - ddlBatchName_SelectedIndexChanged -65 
+ System.Web.HttpException (0x80004005): A field or property with the name 'dob' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Admin_training_batchwise_cdfList.BindGrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\training-batchwise-cdfList.aspx.cs:line 105
+   at Admin_training_batchwise_cdfList.ddlBatchName_SelectedIndexChanged(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\training-batchwise-cdfList.aspx.cs:line 60 
+ 
+2018-12-12 17:00:30,440 [66] ERROR Admin_training_batchwise_cdfList - ddlBatchName_SelectedIndexChanged -65 
+ System.Web.HttpException (0x80004005): A field or property with the name 'dob' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Admin_training_batchwise_cdfList.BindGrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\training-batchwise-cdfList.aspx.cs:line 105
+   at Admin_training_batchwise_cdfList.ddlBatchName_SelectedIndexChanged(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\training-batchwise-cdfList.aspx.cs:line 60 
+ 

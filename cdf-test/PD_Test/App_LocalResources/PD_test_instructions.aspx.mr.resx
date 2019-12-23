@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbContinueResource1.Text" xml:space="preserve">
+    <value>पुढे चालू करण्यासाठी क्लिक करा...</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>समजूत आणि स्वतःचा विकास</value>
+  </data>
+  <data name="pd_hd_lblResource1.Text" xml:space="preserve">
+    <value>वर्तनविषयक रूपरेखा चाचणी विवरण</value>
+  </data>
+  <data name="pd_ins_msg_lblResource1.Text" xml:space="preserve">
+    <value>कोणताही प्रश्न सोडून देवू नका .</value>
+  </data>
+  <data name="pd_ls_hd_msg_lblResource1.Text" xml:space="preserve">
+    <value>किमान उपयुक्त</value>
+  </data>
+  <data name="pd_ms_hd_lblResource1.Text" xml:space="preserve">
+    <value>अत्यंत  उपयुक्त</value>
+  </data>
+  <data name="pd_tst_ins_msg_lblResource1.Text" xml:space="preserve">
+    <value>प्रश्नावली जी आपण पूर्ण करणार आहात ती काही परीक्षा नाही आहे . आपण 'पास' किंवा 'नापास' नाही होणार, आणि इथे कोणतेही उत्तर योग्य किंवा अयोग्य नाही.&lt;br /&gt;&lt;br /&gt;प्रश्नांबाबत कोणतेही अनुमान किंवा भाकीत करण्याचा प्रयत्न करू नका, परंतु सगळे पर्याय विचारात घेवून उत्तर द्या.जर एक किंवा दोन विधाने तुमचे जवळून वर्णन करत असतील, तर चालू दृष्टीकोन नुसार अचूक वर्णन करणारे विधान निवडण्यास वेळ घ्या .&lt;br /&gt;&lt;br /&gt; जेव्हा प्रश्नांचे उत्तर देतांना आपण कार्यपद्धती च्या पद्धतीचा विचार करा .&lt;br /&gt;&lt;br /&gt; प्रशानावालीला लवकरात लवकर दिलेल्या मार्गदर्शक तत्वा प्रमाणे पूर्ण करा, चाचणी पूर्ण करण्यासाठी  १० मिनिटांपेक्षा  जास्त वेळ लागायला नाही पाहिजे .&lt;br /&gt;&lt;br /&gt;  प्रश्नावलीतील प्रत्येक चार शब्दसमूहा मधून , तुम्हांला जास्त जवळून वर्णन करणारे , आणि कमी जवळून वर्णन करणारे शब्दसमूह निवडा.&lt;br /&gt;&lt;br /&gt; अत्यंत  योग्य आणि किमान योग्य बटन चेक करून आपले उत्तर , खाली दिलेल्या उदाहरणात दाखवल्या प्रमाणे दर्शवा .&lt;br /&gt;&lt;br /&gt; आपणाला  प्रत्येक प्रश्नामधील प्रत्येक स्तंभां मधून प्रत्येकी एक बटन निवडावे लागेल .&lt;br /&gt;&lt;strong&gt;&lt;br /&gt; उदाहरण प्रश्न &amp;nbsp;&lt;br /&gt;&lt;/strong&gt;</value>
+  </data>
+  <data name="pd_tst_no_lblResource1.Text" xml:space="preserve">
+    <value>सविस्तर माहिती खालील प्रमाणे आहे, चाचणी क्रमांक </value>
+  </data>
+  <data name="pd_wlcm_lblResource1.Text" xml:space="preserve">
+    <value>आपले स्वागत आहे</value>
+  </data>
+  <data name="lblassessment.Text" xml:space="preserve">
+    <value>मूल्यांकन पोर्टल</value>
+  </data>
+</root>

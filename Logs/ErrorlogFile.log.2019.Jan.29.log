@@ -1,0 +1,102 @@
+2019-01-29 17:19:45,752 [42] ERROR home - GetData -137 
+ MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 130 
+ 
+2019-01-29 17:19:45,804 [42] ERROR home - chart_bind -198 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 172 
+ 
+2019-01-29 17:19:47,352 [42] ERROR home - GetData -137 
+ MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 130 
+ 
+2019-01-29 17:19:47,353 [42] ERROR home - chart_bind_both -238 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind_both() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 210 
+ 
+2019-01-29 17:22:08,701 [41] ERROR home - GetData -135 
+ System.IO.IOException: The handle is invalid.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.Threading.EventWaitHandle.Set()
+   at MySql.Data.MySqlClient.MySqlPool.ReleaseConnection(Driver driver)
+   at MySql.Data.MySqlClient.MySqlPoolManager.ReleaseConnection(Driver driver)
+   at MySql.Data.MySqlClient.MySqlConnection.CloseFully()
+   at MySql.Data.MySqlClient.MySqlConnection.Close()
+   at MySql.Data.MySqlClient.MySqlConnection.Dispose()
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 130 
+ 
+2019-01-29 17:22:08,742 [41] ERROR home - chart_bind -220 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 194 
+ 
+2019-01-29 17:22:09,351 [41] ERROR home - GetData2 -182 
+ System.IO.IOException: The handle is invalid.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.Threading.EventWaitHandle.Set()
+   at MySql.Data.MySqlClient.MySqlPool.ReleaseConnection(Driver driver)
+   at MySql.Data.MySqlClient.MySqlPoolManager.ReleaseConnection(Driver driver)
+   at MySql.Data.MySqlClient.MySqlConnection.CloseFully()
+   at MySql.Data.MySqlClient.MySqlConnection.Close()
+   at MySql.Data.MySqlClient.MySqlConnection.Dispose()
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 177 
+ 
+2019-01-29 17:22:09,366 [41] ERROR home - chart_bind2 -297 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 271 
+ 
+2019-01-29 17:22:09,938 [41] ERROR home - bindgrid -399 
+ System.IO.IOException: The handle is invalid.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.Threading.EventWaitHandle.Set()
+   at MySql.Data.MySqlClient.MySqlPool.ReleaseConnection(Driver driver)
+   at MySql.Data.MySqlClient.MySqlPoolManager.ReleaseConnection(Driver driver)
+   at MySql.Data.MySqlClient.MySqlConnection.CloseFully()
+   at MySql.Data.MySqlClient.MySqlConnection.Close()
+   at MySql.Data.MySqlClient.MySqlConnection.Dispose()
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 395 
+ 
+2019-01-29 17:25:04,336 [41] ERROR home - GetData_both -159 
+ System.IO.IOException: The handle is invalid.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.Threading.EventWaitHandle.Set()
+   at MySql.Data.MySqlClient.MySqlPool.ReleaseConnection(Driver driver)
+   at MySql.Data.MySqlClient.MySqlPoolManager.ReleaseConnection(Driver driver)
+   at MySql.Data.MySqlClient.MySqlConnection.CloseFully()
+   at MySql.Data.MySqlClient.MySqlConnection.Close()
+   at MySql.Data.MySqlClient.MySqlConnection.Dispose()
+   at home.GetData_both() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 154 
+ 
+2019-01-29 17:25:04,382 [41] ERROR home - chart_bind_both -260 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind_both() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 232 
+ 

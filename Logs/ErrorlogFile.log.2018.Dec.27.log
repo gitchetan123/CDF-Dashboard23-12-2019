@@ -1,0 +1,7 @@
+2018-12-27 16:01:25,443 [82] ERROR Admin_google_business_listing - BindUserBusiness -165 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ' '.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 267
+   at Admin_google_business_listing.BindUserBusiness() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\google-business-listing.aspx.cs:line 158
+ClientConnectionId:53011a05-4a23-476b-b2e5-1a8f631f35db
+Error Number:102,State:1,Class:15 
+ 

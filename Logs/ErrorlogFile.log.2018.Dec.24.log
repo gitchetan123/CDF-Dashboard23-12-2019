@@ -1,0 +1,306 @@
+2018-12-24 11:36:23,075 [10] ERROR Admin_admin_users - btn_save_Click -97 
+ System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'id', table 'MobileAppDB1.dbo.tblAdminUsers'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Admin_admin_users.btn_save_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\admin-users.aspx.cs:line 75
+ClientConnectionId:2070f9de-a338-4b09-8608-d305bdba2309
+Error Number:515,State:2,Class:16 
+ 
+2018-12-24 11:46:11,986 [18] ERROR Admin_admin_users - FillGrid -40 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'where'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_admin_users.FillGrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\admin-users.aspx.cs:line 32
+ClientConnectionId:31fb60bc-699c-446a-8d10-8f2bf921d601
+Error Number:156,State:1,Class:15 
+ 
+2018-12-24 11:47:01,126 [18] ERROR Admin_admin_users - FillGrid -40 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'where'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_admin_users.FillGrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\admin-users.aspx.cs:line 32
+ClientConnectionId:31fb60bc-699c-446a-8d10-8f2bf921d601
+Error Number:156,State:1,Class:15 
+ 
+2018-12-24 13:51:13,584 [23] ERROR Admin_ExportData_final_cdf - BindGridView_filter -576 
+ System.Data.SqlClient.SqlException (0x80131904): Column 'A.email' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_ExportData_final_cdf.BindGridView_filter() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 566
+ClientConnectionId:3f66fb75-6d67-4974-a950-892e412174c6
+Error Number:8120,State:1,Class:16 
+ 
+2018-12-24 13:51:13,649 [23] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -634 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 586 
+ 
+2018-12-24 14:12:15,270 [19] ERROR Admin_ExportData_final_cdf - BindGridView_filter -576 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'as'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_ExportData_final_cdf.BindGridView_filter() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 566
+ClientConnectionId:3e89d938-c70a-48f9-9452-6bc888738d43
+Error Number:156,State:1,Class:15 
+ 
+2018-12-24 14:12:15,353 [19] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -634 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 586 
+ 
+2018-12-24 14:13:29,615 [20] ERROR Admin_ExportData_final_cdf - BindGridView_filter -576 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'as'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_ExportData_final_cdf.BindGridView_filter() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 566
+ClientConnectionId:3e89d938-c70a-48f9-9452-6bc888738d43
+Error Number:156,State:1,Class:15 
+ 
+2018-12-24 14:13:29,701 [20] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -634 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 586 
+ 
+2018-12-24 14:13:41,556 [20] ERROR Admin_ExportData_final_cdf - BindGridView_filter -576 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'A'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_ExportData_final_cdf.BindGridView_filter() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 566
+ClientConnectionId:3e89d938-c70a-48f9-9452-6bc888738d43
+Error Number:102,State:1,Class:15 
+ 
+2018-12-24 14:13:41,576 [20] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -634 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 586 
+ 
+2018-12-24 14:14:22,238 [20] ERROR Admin_ExportData_final_cdf - BindGridView_filter -576 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'A'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_ExportData_final_cdf.BindGridView_filter() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 566
+ClientConnectionId:3e89d938-c70a-48f9-9452-6bc888738d43
+Error Number:102,State:1,Class:15 
+ 
+2018-12-24 14:14:22,254 [20] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -634 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 586 
+ 
+2018-12-24 14:14:28,386 [12] ERROR Admin_ExportData_final_cdf - BindGridView_filter -576 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'as'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_ExportData_final_cdf.BindGridView_filter() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 566
+ClientConnectionId:3e89d938-c70a-48f9-9452-6bc888738d43
+Error Number:156,State:1,Class:15 
+ 
+2018-12-24 14:14:28,412 [12] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -634 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 586 
+ 
+2018-12-24 14:15:51,912 [14] ERROR Admin_ExportData_final_cdf - BindGridView_filter -576 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'as'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_ExportData_final_cdf.BindGridView_filter() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 566
+ClientConnectionId:3e89d938-c70a-48f9-9452-6bc888738d43
+Error Number:156,State:1,Class:15 
+ 
+2018-12-24 14:15:51,930 [14] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -634 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 586 
+ 
+2018-12-24 14:16:18,869 [12] ERROR Admin_ExportData_final_cdf - BindGridView_filter -576 
+ System.Data.SqlClient.SqlException (0x80131904): Column 'A.email' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_ExportData_final_cdf.BindGridView_filter() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 566
+ClientConnectionId:3e89d938-c70a-48f9-9452-6bc888738d43
+Error Number:8120,State:1,Class:16 
+ 
+2018-12-24 14:16:18,889 [12] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -634 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 586 
+ 
+2018-12-24 14:18:46,568 [18] ERROR Admin_ExportData_final_cdf - BindGridView_filter -576 
+ System.Data.SqlClient.SqlException (0x80131904): Column 'A.email' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_ExportData_final_cdf.BindGridView_filter() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 566
+ClientConnectionId:3e89d938-c70a-48f9-9452-6bc888738d43
+Error Number:8120,State:1,Class:16 
+ 
+2018-12-24 14:18:46,583 [18] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -634 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 586 
+ 
+2018-12-24 14:30:28,236 [6] ERROR Admin_ExportData_final_cdf - BindGridView_filter -576 
+ System.Data.SqlClient.SqlException (0x80131904): Column 'A.email' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_ExportData_final_cdf.BindGridView_filter() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 566
+ClientConnectionId:77fae4cd-94f8-495c-b703-96772409113e
+Error Number:8120,State:1,Class:16 
+ 
+2018-12-24 14:30:28,262 [6] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -634 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 586 
+ 
+2018-12-24 16:42:09,085 [22] ERROR Admin_training_batchwise_cdfList - ddlBatchName_SelectedIndexChanged -74 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'as'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Admin_training_batchwise_cdfList.BindGrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\training-batchwise-cdfList.aspx.cs:line 163
+   at Admin_training_batchwise_cdfList.ddlBatchName_SelectedIndexChanged(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\training-batchwise-cdfList.aspx.cs:line 69
+ClientConnectionId:542c5d33-7b79-47fe-b1eb-a95fbebd7671
+Error Number:156,State:1,Class:15 
+ 
+2018-12-24 16:42:17,491 [5] ERROR Admin_training_batchwise_cdfList - ddlBatchName_SelectedIndexChanged -74 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'as'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Admin_training_batchwise_cdfList.BindGrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\training-batchwise-cdfList.aspx.cs:line 163
+   at Admin_training_batchwise_cdfList.ddlBatchName_SelectedIndexChanged(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\training-batchwise-cdfList.aspx.cs:line 69
+ClientConnectionId:542c5d33-7b79-47fe-b1eb-a95fbebd7671
+Error Number:156,State:1,Class:15 
+ 
+2018-12-24 17:13:23,651 [24] ERROR Admin_training_batchwise_cdfList - ddlBatchName_SelectedIndexChanged -74 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'B'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'as'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Admin_training_batchwise_cdfList.BindGrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\training-batchwise-cdfList.aspx.cs:line 163
+   at Admin_training_batchwise_cdfList.ddlBatchName_SelectedIndexChanged(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\training-batchwise-cdfList.aspx.cs:line 69
+ClientConnectionId:976051c3-779d-426c-b2ef-60a99ae8b2ce
+Error Number:102,State:1,Class:15 
+ 
+2018-12-24 17:15:02,367 [17] ERROR Admin_training_batchwise_cdfList - ddlBatchName_SelectedIndexChanged -74 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ''.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'as'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Admin_training_batchwise_cdfList.BindGrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\training-batchwise-cdfList.aspx.cs:line 163
+   at Admin_training_batchwise_cdfList.ddlBatchName_SelectedIndexChanged(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\training-batchwise-cdfList.aspx.cs:line 69
+ClientConnectionId:976051c3-779d-426c-b2ef-60a99ae8b2ce
+Error Number:102,State:1,Class:15 
+ 
+2018-12-24 17:23:20,601 [22] ERROR Admin_training_batchwise_cdfList - exp_to_excel -346 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ''.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'as'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Admin_training_batchwise_cdfList.BindGrid_Export() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\training-batchwise-cdfList.aspx.cs:line 262
+   at Admin_training_batchwise_cdfList.exp_to_excel() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\training-batchwise-cdfList.aspx.cs:line 297
+ClientConnectionId:976051c3-779d-426c-b2ef-60a99ae8b2ce
+Error Number:102,State:1,Class:15 
+ 
+2018-12-24 17:25:12,369 [28] ERROR Admin_training_batchwise_cdfList - exp_to_excel -346 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ''.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'as'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Admin_training_batchwise_cdfList.BindGrid_Export() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\training-batchwise-cdfList.aspx.cs:line 262
+   at Admin_training_batchwise_cdfList.exp_to_excel() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\training-batchwise-cdfList.aspx.cs:line 297
+ClientConnectionId:976051c3-779d-426c-b2ef-60a99ae8b2ce
+Error Number:102,State:1,Class:15 
+ 

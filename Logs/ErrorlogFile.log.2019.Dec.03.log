@@ -1,0 +1,2321 @@
+2019-12-03 10:21:17,397 [10] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 10:21:17,511 [10] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 10:21:17,540 [10] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 10:21:17,573 [10] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 10:21:17,620 [10] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 10:21:17,829 [10] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 10:21:17,864 [10] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 10:21:17,889 [10] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 10:21:17,916 [10] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 10:21:18,051 [10] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 10:21:19,493 [15] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 10:21:19,513 [15] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 10:21:19,544 [15] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 10:21:19,571 [15] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 10:21:19,597 [15] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 10:21:19,816 [15] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 10:21:19,844 [15] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 10:21:19,870 [15] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 10:21:19,892 [15] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 10:21:20,001 [15] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 10:22:14,859 [9] ERROR resources_doctree - btn_download_Click -150 
+ System.IO.FileNotFoundException: Could not find file 'E:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\doc\cdf-doc\Standee 4.zip'.
+File name: 'E:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\doc\cdf-doc\Standee 4.zip'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Web.HttpResponse.WriteFile(String filename, Boolean readIntoMemory)
+   at System.Web.HttpResponse.WriteFile(String filename)
+   at resources_doctree.DownloadFile(String fname, Boolean forceDownload) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\resources\doctree.aspx.cs:line 192
+   at resources_doctree.btn_download_Click(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\resources\doctree.aspx.cs:line 137 
+ 
+2019-12-03 10:24:21,867 [9] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 10:24:21,891 [9] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 10:24:21,915 [9] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 10:24:21,946 [9] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 10:24:21,975 [9] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 10:24:22,194 [9] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 10:24:22,230 [9] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 10:24:22,253 [9] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 10:24:22,273 [9] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 10:24:22,418 [9] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 10:43:09,617 [29] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 10:43:09,644 [29] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 10:43:09,670 [29] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 10:43:09,692 [29] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 10:43:09,727 [29] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 10:43:09,916 [29] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 10:43:09,944 [29] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 10:43:10,005 [29] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 10:43:10,037 [29] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 10:43:10,144 [29] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 10:46:44,776 [35] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 10:46:44,803 [35] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 10:46:44,837 [35] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 10:46:44,857 [35] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 10:46:44,876 [35] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 10:46:45,098 [35] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 10:46:45,125 [35] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 10:46:45,152 [35] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 10:46:45,182 [35] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 10:46:45,289 [35] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 10:47:19,078 [35] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 10:47:19,111 [35] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 10:47:19,132 [35] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 10:47:19,153 [35] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 10:47:19,173 [35] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 10:47:19,368 [35] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 10:47:19,391 [35] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 10:47:19,421 [35] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 10:47:19,441 [35] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 10:47:19,560 [35] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:11:40,758 [23] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:11:40,786 [23] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:11:40,811 [23] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:11:40,834 [23] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:11:40,858 [23] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:11:41,071 [23] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:11:41,093 [23] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:11:41,117 [23] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:11:41,153 [23] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:11:41,270 [23] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:11:57,754 [23] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:11:57,791 [23] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:11:57,823 [23] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:11:57,847 [23] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:11:57,869 [23] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:11:58,087 [23] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:11:58,117 [23] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:11:58,139 [23] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:11:58,164 [23] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:11:58,283 [23] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:18:11,827 [23] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:18:11,870 [23] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:18:11,898 [23] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:18:11,923 [23] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:18:11,941 [23] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:18:12,139 [23] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:18:12,163 [23] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:18:12,188 [23] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:18:12,218 [23] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:18:12,356 [23] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:18:22,714 [24] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:18:22,736 [24] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:18:22,758 [24] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:18:22,788 [24] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:18:22,814 [24] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:18:23,017 [24] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:18:23,050 [24] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:18:23,073 [24] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:18:23,100 [24] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:18:23,205 [24] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:18:24,721 [62] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:18:24,742 [62] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:18:24,765 [62] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:18:24,793 [62] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:18:24,813 [62] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:18:24,997 [62] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:18:25,030 [62] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:18:25,055 [62] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:18:25,079 [62] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:18:25,187 [62] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:18:32,036 [23] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:18:32,060 [23] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:18:32,080 [23] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:18:32,107 [23] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:18:32,126 [23] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:18:32,309 [23] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:18:32,352 [23] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:18:32,377 [23] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:18:32,406 [23] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:18:32,531 [23] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:18:44,339 [23] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:18:44,365 [23] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:18:44,397 [23] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:18:44,419 [23] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:18:44,442 [23] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:18:44,650 [23] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:18:44,679 [23] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:18:44,702 [23] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:18:44,722 [23] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:18:44,841 [23] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:19:24,498 [23] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:19:24,523 [23] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:19:24,551 [23] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:19:24,578 [23] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:19:24,605 [23] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:19:24,830 [23] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:19:24,857 [23] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:19:24,884 [23] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:19:24,912 [23] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:19:25,041 [23] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:21:50,748 [23] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:21:50,768 [23] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:21:50,800 [23] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:21:50,856 [23] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:21:50,879 [23] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:21:51,080 [23] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:21:51,105 [23] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:21:51,133 [23] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:21:51,165 [23] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:21:51,284 [23] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:22:03,170 [23] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:22:03,191 [23] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:22:03,210 [23] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:22:03,229 [23] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:22:03,251 [23] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:22:03,504 [23] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:22:03,532 [23] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:22:03,557 [23] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:22:03,583 [23] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:22:03,714 [23] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:23:48,845 [24] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:23:48,869 [24] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:23:48,921 [24] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:23:48,951 [24] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:23:48,974 [24] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:23:49,250 [24] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:23:49,274 [24] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:23:49,299 [24] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:23:49,328 [24] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:23:49,436 [24] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:24:04,831 [45] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:24:04,851 [45] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:24:04,871 [45] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:24:04,897 [45] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:24:04,915 [45] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:24:05,101 [45] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:24:05,129 [45] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:24:05,145 [45] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:24:05,162 [45] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:24:05,259 [45] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:24:08,991 [24] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:24:09,032 [24] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:24:09,054 [24] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:24:09,073 [24] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:24:09,092 [24] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:24:09,323 [24] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:24:09,351 [24] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:24:09,379 [24] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:24:09,419 [24] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:24:09,528 [24] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:24:34,966 [24] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:24:34,994 [24] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:24:35,023 [24] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:24:35,046 [24] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:24:35,070 [24] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:24:35,283 [24] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:24:35,309 [24] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:24:35,333 [24] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:24:35,352 [24] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:24:35,464 [24] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:24:59,846 [45] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:24:59,871 [45] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:24:59,895 [45] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:24:59,921 [45] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:24:59,941 [45] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:25:00,151 [45] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:25:00,172 [45] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:25:00,193 [45] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:25:00,213 [45] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:25:00,325 [45] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:25:22,406 [55] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:25:22,437 [55] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:25:22,458 [55] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:25:22,476 [55] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:25:22,504 [55] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:25:22,693 [55] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:25:22,726 [55] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:25:22,749 [55] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:25:22,776 [55] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:25:22,888 [55] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:44:44,124 [38] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:44:44,152 [38] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:44:44,183 [38] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:44:44,203 [38] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:44:44,222 [38] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:44:44,425 [38] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:44:44,448 [38] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:44:44,473 [38] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:44:44,498 [38] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:44:44,612 [38] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 11:47:40,258 [38] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 11:47:40,287 [38] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 11:47:40,314 [38] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 11:47:40,336 [38] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 11:47:40,363 [38] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 11:47:40,576 [38] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 11:47:40,600 [38] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 11:47:40,632 [38] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 11:47:40,655 [38] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 11:47:40,798 [38] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 12:11:45,256 [58] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 12:11:45,300 [58] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 12:11:45,327 [58] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 12:11:45,350 [58] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 12:11:45,397 [58] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 12:11:45,602 [58] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 12:11:45,636 [58] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 12:11:45,670 [58] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 12:11:45,700 [58] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 12:11:45,811 [58] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 12:39:08,515 [8] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 12:39:08,554 [8] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 12:39:08,594 [8] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 12:39:08,618 [8] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 12:39:08,647 [8] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 12:39:08,951 [8] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 12:39:08,978 [8] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 12:39:09,004 [8] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 12:39:09,034 [8] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 12:39:09,155 [8] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 12:42:13,202 [8] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 12:42:13,261 [8] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 12:42:13,289 [8] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 12:42:13,313 [8] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 12:42:13,345 [8] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 12:42:13,552 [8] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 12:42:13,575 [8] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 12:42:13,615 [8] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 12:42:13,641 [8] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 12:42:13,754 [8] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 12:48:07,728 [6] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 12:48:07,753 [6] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 12:48:07,786 [6] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 12:48:07,810 [6] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 12:48:07,832 [6] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 12:48:08,751 [6] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 12:48:08,784 [6] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 12:48:08,807 [6] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 12:48:08,832 [6] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 12:48:08,960 [6] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 12:48:25,796 [12] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 12:48:25,820 [12] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 12:48:25,864 [12] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 12:48:25,886 [12] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 12:48:25,906 [12] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 12:48:26,106 [12] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 12:48:26,128 [12] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 12:48:26,150 [12] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 12:48:26,173 [12] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 12:48:26,306 [12] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 12:58:46,284 [8] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 12:58:46,316 [8] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 12:58:46,341 [8] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 12:58:46,366 [8] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 12:58:46,393 [8] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 12:58:46,611 [8] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 12:58:46,635 [8] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 12:58:46,661 [8] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 12:58:46,700 [8] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 12:58:46,938 [8] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 14:07:43,927 [57] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 14:07:43,961 [57] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 14:07:43,992 [57] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 14:07:44,018 [57] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 14:07:44,048 [57] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 14:07:44,275 [57] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 14:07:44,311 [57] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 14:07:44,342 [57] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 14:07:44,376 [57] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 14:07:44,494 [57] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 14:09:05,978 [47] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 14:09:06,006 [47] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 14:09:06,034 [47] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 14:09:06,063 [47] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 14:09:06,100 [47] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 14:09:06,280 [47] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 14:09:06,310 [47] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 14:09:06,348 [47] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 14:09:06,374 [47] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 14:09:06,477 [47] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 14:09:25,944 [64] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 14:09:25,979 [64] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 14:09:26,003 [64] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 14:09:26,028 [64] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 14:09:26,049 [64] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 14:09:26,234 [64] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 14:09:26,258 [64] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 14:09:26,283 [64] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 14:09:26,309 [64] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 14:09:26,421 [64] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 14:09:27,890 [52] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 14:09:27,925 [52] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 14:09:27,947 [52] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 14:09:27,970 [52] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 14:09:27,996 [52] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 14:09:28,173 [52] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 14:09:28,194 [52] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 14:09:28,218 [52] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 14:09:28,250 [52] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 14:09:28,351 [52] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 14:09:53,017 [47] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 14:09:53,043 [47] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 14:09:53,074 [47] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 14:09:53,098 [47] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 14:09:53,129 [47] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 14:09:53,309 [47] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 14:09:53,335 [47] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 14:09:53,364 [47] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 14:09:53,425 [47] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 14:09:53,523 [47] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 14:10:47,143 [64] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 14:10:47,180 [64] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 14:10:47,219 [64] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 14:10:47,246 [64] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 14:10:47,275 [64] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 14:10:47,465 [64] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 14:10:47,493 [64] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 14:10:47,521 [64] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 14:10:47,557 [64] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 14:10:47,668 [64] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 14:10:57,994 [64] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 14:10:58,022 [64] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 14:10:58,057 [64] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 14:10:58,097 [64] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 14:10:58,120 [64] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 14:10:58,301 [64] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 14:10:58,332 [64] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 14:10:58,358 [64] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 14:10:58,381 [64] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 14:10:58,499 [64] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 14:11:04,565 [52] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 14:11:04,596 [52] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 14:11:04,622 [52] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 14:11:04,670 [52] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 14:11:04,695 [52] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 14:11:04,877 [52] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 14:11:04,910 [52] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 14:11:04,930 [52] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 14:11:04,949 [52] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 14:11:05,046 [52] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 14:11:08,426 [47] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 14:11:08,463 [47] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 14:11:08,486 [47] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 14:11:08,511 [47] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 14:11:08,535 [47] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 14:11:08,735 [47] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 14:11:08,759 [47] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 14:11:08,790 [47] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 14:11:08,815 [47] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 14:11:08,922 [47] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 14:11:43,699 [64] ERROR ESAT_ReportDownload - Page_Load -28 
+ System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ESAT_ReportDownload.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\Graph_Report\ReportDownload.aspx.cs:line 24 
+ 
+2019-12-03 14:15:57,859 [61] ERROR ESAT_ReportDownload - Page_Load -28 
+ System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ESAT_ReportDownload.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\Graph_Report\ReportDownload.aspx.cs:line 24 
+ 
+2019-12-03 14:20:03,099 [9] ERROR ESAT_ReportDownload - Page_Load -28 
+ System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ESAT_ReportDownload.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\Graph_Report\ReportDownload.aspx.cs:line 24 
+ 
+2019-12-03 14:24:17,637 [12] ERROR ESAT_ReportDownload - Page_Load -28 
+ System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ESAT_ReportDownload.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\Graph_Report\ReportDownload.aspx.cs:line 24 
+ 
+2019-12-03 14:29:49,322 [7] ERROR ESAT_ReportDownload - Page_Load -28 
+ System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ESAT_ReportDownload.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\Graph_Report\ReportDownload.aspx.cs:line 24 
+ 
+2019-12-03 14:35:54,781 [52] ERROR ESAT_ReportDownload - Page_Load -28 
+ System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ESAT_ReportDownload.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\Graph_Report\ReportDownload.aspx.cs:line 24 
+ 
+2019-12-03 15:30:41,418 [62] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 15:30:41,452 [62] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 15:30:41,487 [62] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 15:30:41,530 [62] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 15:30:41,561 [62] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 15:30:41,803 [62] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 15:30:41,853 [62] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 15:30:41,899 [62] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 15:30:41,927 [62] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 15:30:42,069 [62] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 15:31:17,779 [69] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 15:31:17,808 [69] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 15:31:17,842 [69] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 15:31:17,870 [69] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 15:31:17,906 [69] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 15:31:18,128 [69] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 15:31:18,171 [69] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 15:31:18,227 [69] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 15:31:18,274 [69] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 15:31:18,428 [69] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 16:21:01,468 [36] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 16:21:01,505 [36] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 16:21:01,556 [36] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 16:21:01,606 [36] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 16:21:01,650 [36] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 16:21:01,861 [36] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 16:21:01,903 [36] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 16:21:01,944 [36] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 16:21:01,979 [36] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 16:21:02,115 [36] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 16:35:45,448 [28] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 16:35:45,539 [28] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 16:35:45,576 [28] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 16:35:45,598 [28] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 16:35:45,641 [28] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 16:35:45,836 [28] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 16:35:45,874 [28] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 16:35:45,900 [28] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 16:35:45,929 [28] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 16:35:46,042 [28] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 16:38:57,302 [40] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 16:38:57,346 [40] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 16:38:57,373 [40] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 16:38:57,397 [40] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 16:38:57,447 [40] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 16:38:57,630 [40] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 16:38:57,671 [40] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 16:38:57,703 [40] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 16:38:57,731 [40] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 16:38:57,837 [40] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 16:42:18,492 [10] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 16:42:18,523 [10] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 16:42:18,580 [10] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 16:42:18,621 [10] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 16:42:18,645 [10] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 16:42:18,825 [10] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 16:42:18,849 [10] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 16:42:18,895 [10] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 16:42:18,929 [10] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 16:42:19,029 [10] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 16:56:04,598 [11] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 16:56:04,634 [11] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 16:56:04,671 [11] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 16:56:04,700 [11] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 16:56:04,732 [11] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 16:56:04,941 [11] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 16:56:04,971 [11] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 16:56:05,007 [11] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 16:56:05,049 [11] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 16:56:05,169 [11] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 16:57:42,582 [10] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 16:57:42,610 [10] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 16:57:42,633 [10] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 16:57:42,655 [10] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 16:57:42,677 [10] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 16:57:42,926 [10] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 16:57:42,947 [10] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 16:57:42,969 [10] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 16:57:42,999 [10] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 16:57:43,103 [10] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 17:20:43,505 [28] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 17:20:43,540 [28] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 17:20:43,573 [28] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 17:20:43,608 [28] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 17:20:43,640 [28] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 17:20:43,888 [28] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 17:20:43,932 [28] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 17:20:43,983 [28] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 17:20:44,019 [28] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 17:20:44,138 [28] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 17:33:17,513 [49] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 17:33:17,573 [49] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 17:33:17,627 [49] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 17:33:17,651 [49] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 17:33:17,687 [49] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 17:33:17,902 [49] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 17:33:17,958 [49] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 17:33:18,004 [49] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 17:33:18,045 [49] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 17:33:18,224 [49] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 17:34:25,319 [71] ERROR ESAT_ReportDownload - Page_Load -28 
+ System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ESAT_ReportDownload.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\Graph_Report\ReportDownload.aspx.cs:line 24 
+ 
+2019-12-03 17:38:37,513 [71] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 17:38:37,548 [71] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 17:38:37,580 [71] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 17:38:37,618 [71] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 17:38:37,644 [71] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 17:38:37,857 [71] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 17:38:37,890 [71] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 17:38:37,917 [71] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 17:38:37,956 [71] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 17:38:38,073 [71] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 17:40:38,264 [61] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 17:40:38,292 [61] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 17:40:38,331 [61] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 17:40:38,357 [61] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 17:40:38,383 [61] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 17:40:38,591 [61] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 17:40:38,621 [61] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 17:40:38,652 [61] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 17:40:38,689 [61] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 17:40:38,806 [61] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 17:40:45,706 [61] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 17:40:45,731 [61] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 17:40:45,759 [61] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 17:40:45,792 [61] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 17:40:45,815 [61] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 17:40:46,008 [61] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 17:40:46,048 [61] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 17:40:46,079 [61] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 17:40:46,112 [61] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 17:40:46,220 [61] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 17:40:56,911 [61] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 17:40:56,939 [61] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 17:40:56,970 [61] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 17:40:56,993 [61] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 17:40:57,030 [61] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 17:40:57,219 [61] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 17:40:57,244 [61] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 17:40:57,282 [61] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 17:40:57,310 [61] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 17:40:57,421 [61] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 17:50:34,876 [63] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 17:50:34,932 [63] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 17:50:34,961 [63] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 17:50:34,986 [63] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 17:50:35,010 [63] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 17:50:35,211 [63] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 17:50:35,238 [63] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 17:50:35,266 [63] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 17:50:35,290 [63] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 17:50:35,411 [63] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 17:50:51,351 [49] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 17:50:51,370 [49] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 17:50:51,390 [49] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 17:50:51,417 [49] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 17:50:51,433 [49] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 17:50:51,610 [49] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 17:50:51,628 [49] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 17:50:51,658 [49] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 17:50:51,676 [49] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 17:50:51,787 [49] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 
+2019-12-03 17:52:25,156 [61] ERROR home1 - GetData -655 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 641 
+ 
+2019-12-03 17:52:25,187 [61] ERROR home1 - chart_bind -750 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 724 
+ 
+2019-12-03 17:52:25,211 [61] ERROR home1 - GetData2 -712 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 698 
+ 
+2019-12-03 17:52:25,235 [61] ERROR home1 - chart_bind2 -827 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 801 
+ 
+2019-12-03 17:52:25,261 [61] ERROR home1 - bindgrid -931 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 893 
+ 
+2019-12-03 17:52:25,457 [61] ERROR home1 - GetData_both -689 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 665 
+ 
+2019-12-03 17:52:25,480 [61] ERROR home1 - chart_bind_both -790 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 762 
+ 
+2019-12-03 17:52:25,504 [61] ERROR home1 - bindgrid_lead_converted -972 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 946 
+ 
+2019-12-03 17:52:25,547 [61] ERROR home1 - bindgrid_lead_created -1011 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 985 
+ 
+2019-12-03 17:52:25,682 [61] ERROR home1 - Page_Load -150 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in e:\CHETAN\CDFDashboardFinal(Bhagu)\CDF-Dashboard2017\home1.aspx.cs:line 79 
+ 

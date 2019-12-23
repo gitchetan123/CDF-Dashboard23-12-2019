@@ -1,0 +1,102 @@
+2018-12-07 10:44:32,324 [8] ERROR candidatedetails - btn_Agreed_Amount_Click -524 
+ System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at candidatedetails.approve_click() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 441
+   at candidatedetails.btn_Agreed_Amount_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 519 
+ 
+2018-12-07 12:47:53,360 [13] ERROR candidatedetails - Page_Load -58 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 46 
+ 
+2018-12-07 12:47:53,411 [13] ERROR CDFMaster - Page_Load -36 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at CDFMaster.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\admin-master.master.cs:line 16 
+ 
+2018-12-07 12:47:53,664 [13] ERROR candidatedetails - btn_Agreed_Amount_Click -521 
+ System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_tblAgreedAmount_tblUserMaster". The conflict occurred in database "MobileAppDB1", table "dbo.tblUserMaster", column 'uId'.
+The statement has been terminated.
+   at db_context.ExecNonQuery(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 107
+   at candidatedetails.btn_Agreed_Amount_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 508
+ClientConnectionId:dfda97c1-43a8-40d8-be91-72510a94b948
+Error Number:547,State:0,Class:16 
+ 
+2018-12-07 12:48:12,449 [12] ERROR candidatedetails - Page_Load -58 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 46 
+ 
+2018-12-07 12:48:12,474 [12] ERROR CDFMaster - Page_Load -36 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at CDFMaster.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\admin-master.master.cs:line 16 
+ 
+2018-12-07 12:48:14,256 [12] ERROR candidatedetails - Page_Load -58 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 46 
+ 
+2018-12-07 12:48:14,747 [12] ERROR CDFMaster - Page_Load -36 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at CDFMaster.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\admin-master.master.cs:line 16 
+ 
+2018-12-07 12:52:09,226 [8] ERROR candidatedetails - Page_Load -58 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 46 
+ 
+2018-12-07 12:52:09,571 [8] ERROR CDFMaster - Page_Load -36 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at CDFMaster.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\admin-master.master.cs:line 16 
+ 
+2018-12-07 12:55:30,657 [12] ERROR candidatedetails - Page_Load -58 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 46 
+ 
+2018-12-07 12:55:30,998 [12] ERROR CDFMaster - Page_Load -36 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at CDFMaster.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\admin-master.master.cs:line 16 
+ 
+2018-12-07 12:57:41,384 [8] ERROR candidatedetails - Page_Load -58 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 46 
+ 
+2018-12-07 12:57:41,733 [8] ERROR CDFMaster - Page_Load -36 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at CDFMaster.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\admin-master.master.cs:line 16 
+ 
+2018-12-07 14:35:04,427 [8] ERROR Admin_download - Page_Load -29 
+ System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\doc\Admin-NDA\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Web.HttpResponse.WriteFile(String filename, Boolean readIntoMemory)
+   at System.Web.HttpResponse.WriteFile(String filename)
+   at Admin_download.DownloadFile(String fname, Boolean forceDownload) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\download.aspx.cs:line 72
+   at Admin_download.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\download.aspx.cs:line 23 
+ 
+2018-12-07 15:23:43,622 [36] ERROR candidatedetails - Page_Load -58 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 46 
+ 
+2018-12-07 16:24:15,253 [44] ERROR candidatedetails - btn_Agreed_Amount_Click -536 
+ System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'sp_Insert_Agreed_Amount' expects parameter '@uId', which was not supplied.
+   at db_context.ExecNonQuery(String s_query, Int32 c_id, Int32 agreed_amount, Int32 createdBy, Int32 updatedBy, String comment) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 132
+   at candidatedetails.btn_Agreed_Amount_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 528
+ClientConnectionId:724c3c7f-fac6-45a8-b2ab-f1605318e9dd
+Error Number:201,State:4,Class:16 
+ 
+2018-12-07 16:27:38,689 [36] ERROR candidatedetails - btn_Agreed_Amount_Click -536 
+ System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'sp_Insert_Agreed_Amount' expects parameter '@createdDate', which was not supplied.
+   at db_context.ExecNonQuery(String s_query, Int32 c_id, Int32 agreed_amount, Int32 createdBy, Int32 updatedBy, String comment) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 132
+   at candidatedetails.btn_Agreed_Amount_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 528
+ClientConnectionId:4a8f7dfc-9259-4cca-ae2f-357ae7b27ed8
+Error Number:201,State:4,Class:16 
+ 
+2018-12-07 16:28:21,525 [36] ERROR candidatedetails - btn_Agreed_Amount_Click -536 
+ System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'sp_Insert_Agreed_Amount' expects parameter '@result', which was not supplied.
+   at db_context.ExecNonQuery(String s_query, Int32 c_id, Int32 agreed_amount, Int32 createdBy, Int32 updatedBy, String comment) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 132
+   at candidatedetails.btn_Agreed_Amount_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 528
+ClientConnectionId:4a8f7dfc-9259-4cca-ae2f-357ae7b27ed8
+Error Number:201,State:4,Class:16 
+ 

@@ -1,0 +1,90 @@
+2019-06-01 10:51:59,836 [6] ERROR Search_institutedetails - Page_Load -107 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Search_institutedetails.Page_Load(Object sender, EventArgs e) in d:\Github\CDF-Dashboard2017\Search\institutedetails.aspx.cs:line 49 
+ 
+2019-06-01 10:52:22,330 [10] ERROR home1 - GetData -230 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData() in d:\Github\CDF-Dashboard2017\home1.aspx.cs:line 216 
+ 
+2019-06-01 10:52:22,348 [10] ERROR home1 - chart_bind -325 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind() in d:\Github\CDF-Dashboard2017\home1.aspx.cs:line 299 
+ 
+2019-06-01 10:52:22,388 [10] ERROR home1 - GetData2 -287 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData2() in d:\Github\CDF-Dashboard2017\home1.aspx.cs:line 273 
+ 
+2019-06-01 10:52:22,411 [10] ERROR home1 - chart_bind2 -402 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind2() in d:\Github\CDF-Dashboard2017\home1.aspx.cs:line 376 
+ 
+2019-06-01 10:52:22,427 [10] ERROR home1 - bindgrid -506 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid() in d:\Github\CDF-Dashboard2017\home1.aspx.cs:line 468 
+ 
+2019-06-01 10:52:22,639 [10] ERROR home1 - GetData_both -264 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.GetData_both() in d:\Github\CDF-Dashboard2017\home1.aspx.cs:line 240 
+ 
+2019-06-01 10:52:22,655 [10] ERROR home1 - chart_bind_both -365 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.chart_bind_both() in d:\Github\CDF-Dashboard2017\home1.aspx.cs:line 337 
+ 
+2019-06-01 10:52:22,672 [10] ERROR home1 - bindgrid_lead_converted -547 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_converted() in d:\Github\CDF-Dashboard2017\home1.aspx.cs:line 521 
+ 
+2019-06-01 10:52:22,700 [10] ERROR home1 - bindgrid_lead_created -586 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.bindgrid_lead_created() in d:\Github\CDF-Dashboard2017\home1.aspx.cs:line 560 
+ 
+2019-06-01 10:52:22,944 [10] ERROR home1 - Page_Load -134 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in d:\Github\CDF-Dashboard2017\home1.aspx.cs:line 63 
+ 
+2019-06-01 10:52:41,766 [11] ERROR Search_institutedetails - Page_Load -107 
+ System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the varchar value '--Select--' to data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at dal.ExecDataSet(String s_query) in d:\Github\CDF-Dashboard2017\App_Code\Proto\dal.cs:line 232
+   at Search_institutedetails.Page_Load(Object sender, EventArgs e) in d:\Github\CDF-Dashboard2017\Search\institutedetails.aspx.cs:line 69
+ClientConnectionId:7c36dab1-01a2-4e40-a368-d6247345fd83
+Error Number:245,State:1,Class:16 
+ 
+2019-06-01 10:53:04,065 [6] ERROR Search_InstituteSearch - select_subcourse -169 
+ System.ArgumentOutOfRangeException: 'ddl_subconame' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at Search_InstituteSearch.select_subcourse(String strcmd) in d:\Github\CDF-Dashboard2017\Search\InstituteSearch.aspx.cs:line 163 
+ 
+2019-06-01 10:54:47,025 [6] ERROR Search_institutedetails - Page_Load -107 
+ System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the varchar value '--Select--' to data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at dal.ExecDataSet(String s_query) in d:\Github\CDF-Dashboard2017\App_Code\Proto\dal.cs:line 232
+   at Search_institutedetails.Page_Load(Object sender, EventArgs e) in d:\Github\CDF-Dashboard2017\Search\institutedetails.aspx.cs:line 69
+ClientConnectionId:f7a7be27-b599-4b0a-9cb7-16676e6ef2f1
+Error Number:245,State:1,Class:16 
+ 

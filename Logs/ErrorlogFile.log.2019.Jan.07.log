@@ -1,0 +1,124 @@
+2019-01-07 11:03:08,656 [21] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -690 
+ System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 673 
+ 
+2019-01-07 11:06:43,566 [23] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -690 
+ System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 673 
+ 
+2019-01-07 11:07:54,684 [16] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -687 
+ System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 670 
+ 
+2019-01-07 11:35:52,689 [22] ERROR candidatedetails - Page_Load -511 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 267
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 137
+ClientConnectionId:618b2e0f-867b-4fab-8383-0e9577155175
+Error Number:207,State:1,Class:16 
+ 
+2019-01-07 11:35:59,581 [22] ERROR candidatedetails - Page_Load -511 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 267
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 137
+ClientConnectionId:618b2e0f-867b-4fab-8383-0e9577155175
+Error Number:207,State:1,Class:16 
+ 
+2019-01-07 11:43:25,158 [17] ERROR candidatedetails - Page_Load -511 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 267
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 137
+ClientConnectionId:618b2e0f-867b-4fab-8383-0e9577155175
+Error Number:207,State:1,Class:16 
+ 
+2019-01-07 12:56:09,681 [73] ERROR data_context - SendEmail1 -85 
+ System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at data_context.SendEmail1(String recepientEmail, String subject, String body) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\data_context.cs:line 79 
+ 
+2019-01-07 12:58:56,797 [21] ERROR data_context - sendemail -52 
+ System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at data_context.sendemail(String to, String cc, String bcc, String subject, String body) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\data_context.cs:line 46 
+ 
+2019-01-07 13:00:54,231 [22] ERROR data_context - sendemail -52 
+ System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at data_context.sendemail(String to, String cc, String bcc, String subject, String body) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\data_context.cs:line 46 
+ 
+2019-01-07 13:00:54,239 [26] ERROR data_context - sendemail -52 
+ System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at data_context.sendemail(String to, String cc, String bcc, String subject, String body) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\data_context.cs:line 46 
+ 
+2019-01-07 14:01:41,816 [37] ERROR CDFMaster - Page_Load -49 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at CDFMaster.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\admin-master.master.cs:line 16 
+ 
+2019-01-07 14:21:06,873 [6] ERROR candidatedetails - Page_Load -511 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 267
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 137
+ClientConnectionId:536258ef-5f9d-4981-843c-5577c48cc739
+Error Number:207,State:1,Class:16 
+ 
+2019-01-07 14:36:08,700 [36] ERROR CDFMaster - Page_Load -49 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at CDFMaster.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\admin-master.master.cs:line 16 
+ 
+2019-01-07 14:59:25,707 [79] ERROR CDFMaster - Page_Load -49 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at CDFMaster.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\admin-master.master.cs:line 16 
+ 
+2019-01-07 15:34:04,672 [13] ERROR CDFMaster - Page_Load -49 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at CDFMaster.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\admin-master.master.cs:line 16 
+ 
+2019-01-07 17:16:07,162 [38] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-07 17:16:07,268 [38] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-07 17:16:07,301 [38] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-07 17:16:07,316 [38] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-07 17:16:07,346 [38] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-07 17:16:07,965 [38] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 

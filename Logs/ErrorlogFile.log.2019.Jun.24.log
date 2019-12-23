@@ -1,0 +1,20 @@
+2019-06-24 11:58:02,465 [6] ERROR candidatedetails - Page_Load -67 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Github\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 49 
+ 
+2019-06-24 11:58:33,050 [12] ERROR candidatedetails - Page_Load -539 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Github\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 150 
+ 
+2019-06-24 11:59:50,542 [9] ERROR candidatedetails - Page_Load -539 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Github\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 150 
+ 
+2019-06-24 12:00:48,221 [9] ERROR candidatedetails - Page_Load -539 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Github\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 150 
+ 
+2019-06-24 12:00:52,659 [11] ERROR candidatedetails - Page_Load -67 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Github\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 49 
+ 

@@ -1,0 +1,8 @@
+2018-09-14 12:20:03,017 [7] ERROR RegUpdate - Page_Load -95 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at RegUpdate.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\pre\RegUpdate.aspx.cs:line 49 
+ 
+2018-09-14 12:21:18,880 [5] ERROR RegUpdate - Page_Load -95 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at RegUpdate.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\pre\RegUpdate.aspx.cs:line 49 
+ 

@@ -1,0 +1,105 @@
+2018-12-20 11:08:47,943 [29] ERROR Admin_ExportData_final_cdf - BindGridView_limit -464 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'group'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_ExportData_final_cdf.BindGridView_limit() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 455
+ClientConnectionId:7bec055d-c8ff-443d-a817-b041465d5691
+Error Number:156,State:1,Class:15 
+ 
+2018-12-20 11:08:47,982 [29] ERROR Admin_ExportData_final_cdf - ExportToExcel -592 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_final_cdf.ExportToExcel(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 545 
+ 
+2018-12-20 11:14:47,789 [27] ERROR Admin_ExportData_final_cdf - BindGridView_limit -464 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'group'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_ExportData_final_cdf.BindGridView_limit() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 455
+ClientConnectionId:ae6e3160-7780-4afd-8166-2d8158e7d4c1
+Error Number:156,State:1,Class:15 
+ 
+2018-12-20 11:14:47,813 [27] ERROR Admin_ExportData_final_cdf - ExportToExcel -592 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_final_cdf.ExportToExcel(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 545 
+ 
+2018-12-20 11:15:22,320 [34] ERROR Admin_ExportData_final_cdf - BindGridView_limit -464 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'order'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_ExportData_final_cdf.BindGridView_limit() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 455
+ClientConnectionId:ae6e3160-7780-4afd-8166-2d8158e7d4c1
+Error Number:156,State:1,Class:15 
+ 
+2018-12-20 11:15:22,335 [34] ERROR Admin_ExportData_final_cdf - ExportToExcel -592 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_final_cdf.ExportToExcel(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 545 
+ 
+2018-12-20 11:16:02,369 [26] ERROR Admin_ExportData_final_cdf - BindGridView_limit -464 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'order'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_ExportData_final_cdf.BindGridView_limit() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 455
+ClientConnectionId:ae6e3160-7780-4afd-8166-2d8158e7d4c1
+Error Number:156,State:1,Class:15 
+ 
+2018-12-20 11:16:02,388 [26] ERROR Admin_ExportData_final_cdf - ExportToExcel -592 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_final_cdf.ExportToExcel(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 545 
+ 
+2018-12-20 16:43:16,853 [29] ERROR Admin_ExportData_final_cdf - ExportToExcel -594 
+ System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'sp_filter_data' expects parameter '@cityid', which was not supplied.
+   at db_context.ExecDataSet(String s_query, Int32 status, Int32 level) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 1515
+   at Admin_ExportData_final_cdf.ExportToExcel(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 548
+ClientConnectionId:c61f8cd1-7c51-4224-8475-4e68ab666952
+Error Number:201,State:4,Class:16 
+ 
+2018-12-20 16:47:54,345 [27] ERROR Admin_ExportData_final_cdf - ExportToExcel -596 
+ System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'sp_filter_data' expects parameter '@dob', which was not supplied.
+   at db_context.ExecDataSet(String s_query, Int32 status, Int32 level, Int32 cityId) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 1519
+   at Admin_ExportData_final_cdf.ExportToExcel(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 550
+ClientConnectionId:82ed3a5f-8513-450a-af6c-87334218864b
+Error Number:201,State:4,Class:16 
+ 
+2018-12-20 17:19:20,998 [12] ERROR Admin_ExportData_final_cdf - ExportToExcel -602 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Admin_ExportData_final_cdf.ExportToExcel(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 550 
+ 
+2018-12-20 17:23:02,629 [11] ERROR Admin_ExportData_final_cdf - ExportToExcel -611 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Admin_ExportData_final_cdf.ExportToExcel(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 559 
+ 
+2018-12-20 17:26:23,301 [13] ERROR Admin_ExportData_final_cdf - ExportToExcel -611 
+ System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to bigint.
+   at db_context.ExecDataSet(String s_query, Int32 status, String level, String cityId) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 1519
+   at Admin_ExportData_final_cdf.ExportToExcel(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 559
+ClientConnectionId:5ab31a3e-6abd-4bc3-9bf1-8574a95fcdfa
+Error Number:8114,State:5,Class:16 
+ 
+2018-12-20 17:27:55,558 [13] ERROR Admin_ExportData_final_cdf - ExportToExcel -611 
+ System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Admin_ExportData_final_cdf.ExportToExcel(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 568 
+ 
+2018-12-20 17:28:39,316 [5] ERROR Admin_ExportData_final_cdf - ExportToExcel -611 
+ System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to bigint.
+   at db_context.ExecDataSet(String s_query, Int32 status, String level, String cityId) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 1519
+   at Admin_ExportData_final_cdf.ExportToExcel(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 559
+ClientConnectionId:5ab31a3e-6abd-4bc3-9bf1-8574a95fcdfa
+Error Number:8114,State:5,Class:16 
+ 
+2018-12-20 17:32:32,155 [15] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -612 
+ System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to bigint.
+   at db_context.ExecDataSet(String s_query, Int32 status, String level, String cityId) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 1519
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 560
+ClientConnectionId:5ab31a3e-6abd-4bc3-9bf1-8574a95fcdfa
+Error Number:8114,State:5,Class:16 
+ 
+2018-12-20 17:33:10,826 [14] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -612 
+ System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to bigint.
+   at db_context.ExecDataSet(String s_query, Int32 status, String level, String cityId) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 1519
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 560
+ClientConnectionId:5ab31a3e-6abd-4bc3-9bf1-8574a95fcdfa
+Error Number:8114,State:5,Class:16 
+ 

@@ -1,0 +1,98 @@
+2018-12-08 12:14:58,993 [15] ERROR candidatedetails - Page_Load -60 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 47 
+ 
+2018-12-08 12:38:08,103 [5] ERROR candidatedetails - Page_Load -60 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 47 
+ 
+2018-12-08 12:40:07,907 [16] ERROR candidatedetails - Save_Agreed_Amount -909 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at candidatedetails.Save_Agreed_Amount() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 898 
+ 
+2018-12-08 12:41:58,066 [6] ERROR candidatedetails - Save_Agreed_Amount -909 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at candidatedetails.Save_Agreed_Amount() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 898 
+ 
+2018-12-08 12:42:30,803 [20] ERROR candidatedetails - Save_Agreed_Amount -909 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at candidatedetails.Save_Agreed_Amount() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 898 
+ 
+2018-12-08 12:43:22,032 [6] ERROR candidatedetails - Save_Agreed_Amount -909 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at candidatedetails.Save_Agreed_Amount() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 898 
+ 
+2018-12-08 16:35:12,994 [30] ERROR candidatedetails - Page_Load -61 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 48 
+ 
+2018-12-08 16:50:16,784 [20] ERROR candidatedetails - Page_Load -61 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 48 
+ 
+2018-12-08 17:33:13,577 [23] ERROR candidatedetails - btn_Agreed_Amount_Click -961 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at candidatedetails.btn_Agreed_Amount_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 954 
+ 
+2018-12-08 17:33:29,267 [24] ERROR candidatedetails - btn_Agreed_Amount_Click -961 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at candidatedetails.btn_Agreed_Amount_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 954 
+ 
+2018-12-08 17:36:17,821 [20] ERROR candidatedetails - btn_Agreed_Amount_Click -961 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at candidatedetails.btn_Agreed_Amount_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 954 
+ 
+2018-12-08 17:36:25,262 [8] ERROR candidatedetails - btn_Agreed_Amount_Click -961 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at candidatedetails.btn_Agreed_Amount_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 954 
+ 
+2018-12-08 17:36:35,757 [24] ERROR candidatedetails - btn_Agreed_Amount_Click -961 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at candidatedetails.btn_Agreed_Amount_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 954 
+ 
+2018-12-08 17:37:24,024 [20] ERROR candidatedetails - btn_Agreed_Amount_Click -961 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at candidatedetails.btn_Agreed_Amount_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 954 
+ 
+2018-12-08 17:50:45,251 [12] ERROR candidatedetails - Page_Load -60 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 47 
+ 
+2018-12-08 17:50:46,339 [12] ERROR candidatedetails - btn_Agreed_Amount_Click -961 
+ System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_tblAgreedAmount_tblUserMaster". The conflict occurred in database "MobileAppDB1", table "dbo.tblUserMaster", column 'uId'.
+The statement has been terminated.
+   at db_context.ExecNonQuery(String s_query, Int32 c_id, Int32 agreed_amount, Int32 createdBy, Int32 updatedBy, String comment) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 132
+   at candidatedetails.btn_Agreed_Amount_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 957
+ClientConnectionId:3d78351a-9e58-4b55-82ab-84391c01dc9d
+Error Number:547,State:0,Class:16 
+ 

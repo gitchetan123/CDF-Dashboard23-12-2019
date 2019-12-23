@@ -1,0 +1,14 @@
+2018-12-19 18:13:49,078 [10] ERROR Admin_ExportData_final_cdf - BindGridView -336 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'group'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_ExportData_final_cdf.BindGridView() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 327
+ClientConnectionId:68aef19b-f3d6-46d6-bd60-16e44a840b5b
+Error Number:156,State:1,Class:15 
+ 
+2018-12-19 18:14:04,882 [10] ERROR Admin_ExportData_final_cdf - BindGridView -336 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'AND'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_ExportData_final_cdf.BindGridView() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 327
+ClientConnectionId:68aef19b-f3d6-46d6-bd60-16e44a840b5b
+Error Number:156,State:1,Class:15 
+ 

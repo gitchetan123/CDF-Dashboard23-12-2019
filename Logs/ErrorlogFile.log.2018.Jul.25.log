@@ -1,0 +1,60 @@
+2018-07-25 17:47:01,716 [21] ERROR data_context - sendemail -52 
+ System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at data_context.sendemail(String to, String cc, String bcc, String subject, String body) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\data_context.cs:line 34 
+ 
+2018-07-25 17:52:33,575 [23] ERROR data_context - sendemail -52 
+ System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at data_context.sendemail(String to, String cc, String bcc, String subject, String body) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\data_context.cs:line 34 
+ 
+2018-07-25 17:54:26,392 [20] ERROR data_context - SendEmail1 -85 
+ System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at data_context.SendEmail1(String recepientEmail, String subject, String body) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\data_context.cs:line 79 
+ 
+2018-07-25 17:56:01,784 [22] ERROR data_context - SendEmail1 -85 
+ System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at data_context.SendEmail1(String recepientEmail, String subject, String body) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\data_context.cs:line 79 
+ 
+2018-07-25 18:03:31,877 [25] ERROR data_context - SendEmail1 -85 
+ System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at data_context.SendEmail1(String recepientEmail, String subject, String body) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\data_context.cs:line 79 
+ 
+2018-07-25 18:05:28,546 [11] ERROR data_context - SendEmail1 -85 
+ System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at data_context.SendEmail1(String recepientEmail, String subject, String body) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\data_context.cs:line 79 
+ 
+2018-07-25 18:15:41,899 [17] ERROR verifycdfregistration - Page_Load -29 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'userType'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 463
+   at verifycdfregistration.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\verify-cdf-registration.aspx.cs:line 25
+ClientConnectionId:ee464bc4-1861-40ca-bea9-3def5087221c
+Error Number:207,State:1,Class:16 
+ 
+2018-07-25 18:17:19,748 [25] ERROR verifycdfregistration - Page_Load -29 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'userType'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 463
+   at verifycdfregistration.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\verify-cdf-registration.aspx.cs:line 25
+ClientConnectionId:ee464bc4-1861-40ca-bea9-3def5087221c
+Error Number:207,State:1,Class:16 
+ 

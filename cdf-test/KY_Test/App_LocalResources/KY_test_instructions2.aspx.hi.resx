@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AVISHImageResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AVISHImageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="c_right_lblResource1.Text" xml:space="preserve">
+    <value>© कॉपीराइट 2013.</value>
+  </data>
+  <data name="c_right_lblResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="follow_tst_inst_lblResource1.Text" xml:space="preserve">
+    <value>निचे दिया गया विवरण टेस्ट नंबर 1 का है .</value>
+  </data>
+  <data name="follow_tst_inst_lblResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image3Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="inst_lblResource2.Text" xml:space="preserve">
+    <value>&lt;strong&gt;प्रिय छात्र ,&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;आपने कुछ परीक्षण पूरा कर लिया है और इस परीक्षण के कुछ भाग शेष है। कृपया निर्देशों को सावधानीपूर्वक पढ़े और परीक्षण जारी रखने के लिए नीचे क्लिक करें।&lt;br /&gt;&lt;br /&gt;इस परीक्षण में हम आपकी पसंद और नापसंद को जानना चाहते हैं. पहले, हम आपको एक उदाहरण देते हैं, ताकि आप पता चल जाएगा कि वास्तव में क्या करना है. इस परीक्षा में 90 प्रश्न हैं. हर बयान में  ए, बी और सी तीन विकल्प है. आप सभी प्रश्नो को पढ़े और सिर्फ आपकी जवाब पर क्लिक करें.&lt;br /&gt;&lt;br /&gt;उदाहरण प्रश्न&lt;br /&gt;यदि आप झगड़ते है, तो क्या आप अपने मित्रों से फिर जल्दी से दोस्ती करते है?&lt;br /&gt;क) हाँ&lt;br /&gt;(ख) के बीच में (या अनिश्चित)&lt;br /&gt;ग) कोई नही &lt;br /&gt;&lt;br /&gt;जैसा की आपने उदाहरण में देखा की वहाँ कोई सही और गलत उत्तर नही हैं. प्रत्येक आप्शन सभी के लिए भिन्न और जो उनको उचित लगता है सही है. आप हमेशा एक अलग उत्तर पाओगे जो दुसरो से थोड़े से अलग हो सकते है इसलिए आप किसी भी प्रश्न को बिना चिन्हित किए मत छोड़े.&lt;br /&gt;&lt;br /&gt;प्रश्न का उत्तर देने में अधिक समय न लें. जो भी नैसर्गिक उत्तर आपके मस्तिष्क में पहले उसे चिन्हित कीजिए. आप जब किसी प्रश्न का उत्तर देने में असक्षम हो या दुसरे उत्तर आपके पसंद के न हो, तो आप मध्य उत्तर को चुने.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;किसी भी प्रश्न को न छोड़े.&lt;/strong&gt;</value>
+  </data>
+  <data name="inst_lblResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbContinueResource1.Text" xml:space="preserve">
+    <value>जारी रखने के लिए क्लिक करें ....</value>
+  </data>
+  <data name="lbContinueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCand_nameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCand_nameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="p_by_lblResource1.Text" xml:space="preserve">
+    <value>Dheya.com द्वारा संचालित</value>
+  </data>
+  <data name="p_by_lblResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Dheya में आपका स्वागत है :: कैरियर आकलन कार्यक्रम :: टेस्ट विवरण</value>
+  </data>
+  <data name="test_detail_hd_lblResource1.Text" xml:space="preserve">
+    <value>निजी गुण विश्लेषक टेस्ट विवरण</value>
+  </data>
+  <data name="test_detail_hd_lblResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wlcm_lblResource1.Text" xml:space="preserve">
+    <value>आपका स्वागत है&amp;#33;</value>
+  </data>
+  <data name="wlcm_lblResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblassessment.Text" xml:space="preserve">
+    <value>आकलन पोर्टल</value>
+  </data>
+  <data name="ky_tst_inst_hd_lblResource1.Text" xml:space="preserve">
+    <value>निजी गुण विश्लेषक टेस्ट विवरण</value>
+  </data>
+</root>

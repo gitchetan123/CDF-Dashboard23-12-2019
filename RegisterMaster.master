@@ -1,0 +1,275 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="RegisterMaster.master.cs" Inherits="RegisterMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Dheya Career Mentors | CDF-Dashboard Registration</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- Bootstrap -->
+    <link href="<%=ResolveUrl("~") %>vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- NProgress -->
+    <link href="<%=ResolveUrl("~") %>vendors/nprogress/nprogress.css" rel="stylesheet" />
+    <!-- bootstrap-progressbar -->
+    <link href="vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <%--Favicon--%>
+    <link rel="icon" href="images/fevicon.ico" type="image/x-icon" />
+    <!-- Custom Theme Style -->
+    <link href="<%=ResolveUrl("~") %>css/custom.min.css" rel="stylesheet" />
+    <link href="<%=ResolveUrl("~") %>css/pagination.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .adress {
+            max-width: 200px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+
+        html, body {
+            height: 100%; /* The html and body elements cannot have any padding or margin. */
+            overflow-x: hidden;
+        }
+
+          body {
+  -webkit-user-select: none;
+     -moz-user-select: -moz-none;
+      -ms-user-select: none;
+          user-select: none;
+}
+    </style>
+</head>
+<body class="nav-md footer_fixed">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="<%=ResolveUrl("~") %>pre/home.aspx" class="site_title"><i>
+                            <img src="<%=ResolveUrl("~") %>images/Icon.png" style="height: 35px; width: 35px;" /></i><span>Dheya-CDF</span></a>
+
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <!-- menu profile quick info -->
+                    <div class="profile">
+                        <div class="profile_pic">
+                            <asp:Image ID="Image1" class="img-circle profile_img" runat="server" Visible="true" Width="60px" Height="60px" />
+                        </div>
+                        <br />
+                        <div class="profile_info" style="margin-top: 40px;">
+
+
+                            <div class="">
+                                <strong>
+                                    <asp:Label ID="lbl_username" runat="server" Text='<%# Bind("ARCH_ISSUE") %>' ToolTip=""></asp:Label>
+                                </strong>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- /menu profile quick info -->
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu" style="margin-top: 0px;">
+                        <div class="menu_section">
+                            <div id="manualregdiv" runat="server">
+                                <ul class="nav side-menu">
+                                    <li><a href="<%=ResolveUrl("~") %>manual-registration.aspx"><i class="fa fa-home"></i>Registration</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="regdiv" runat="server">
+                                <ul class="nav side-menu">
+                                    <li><a href="<%=ResolveUrl("~") %>pre/cdf-registration.aspx"><i class="fa fa-home"></i>Registration</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="logindiv" runat="server">
+                                <ul class="nav side-menu">
+                                    <li><a href="<%=ResolveUrl("~") %>login.aspx"><i class="fa fa-sign-in"></i>Login</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="othermenu">
+                                <ul class="nav side-menu">
+                                    <li><a href="https://www.dheya.com/contact-us/"><i class="fa fa-phone"></i>Contact Us</a>
+                                    </li>
+                                    <li><a href="https://www.dheya.com/about-us/"><i class="fa fa-user"></i>About Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <nav>
+                        <div class="nav toggle">
+                            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                        </div>
+
+                        <ul class="nav navbar-nav navbar-right" style="margin-right: 5px;">
+
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <asp:Label ID="lbl_username2" runat="server"></asp:Label>
+                                    &nbsp;
+                                        <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                    <li><a href="<%=ResolveUrl("~") %>logout.aspx"><i class="fa fa-sign-out pull-right"></i>Log Out</a></li>
+                                </ul>
+                            </li>
+
+                            <li role="presentation" style="margin: 17px 20px 0 0;">
+                                <p style="font-size: 14px;">Welcome to Dheya's CDF Registration Portal</p>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- /top navigation -->
+
+
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="<%=ResolveUrl("~") %>vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="<%=ResolveUrl("~") %>vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="<%=ResolveUrl("~") %>vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="<%=ResolveUrl("~") %>vendors/nprogress/nprogress.js"></script>
+    <!-- Right Click Disable -->
+    <script type="text/javascript">
+        if (document.layers) {
+            //Capture the MouseDown event.
+            document.captureEvents(Event.MOUSEDOWN);
+
+            //Disable the OnMouseDown event handler.
+            document.onmousedown = function () {
+                return false;
+            };
+        }
+        else {
+            //Disable the OnMouseUp event handler.
+            document.onmouseup = function (e) {
+                if (e != null && e.type == "mouseup") {
+                    //Check the Mouse Button which is clicked.
+                    if (e.which == 2 || e.which == 3) {
+                        //If the Button is middle or right then disable.
+                        return false;
+                    }
+                }
+            };
+        }
+
+        //Disable the Context Menu event.
+        document.oncontextmenu = function () {
+            return false;
+        };
+
+
+
+
+        //////////F12 disable code////////////////////////
+        document.onkeypress = function (event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                //alert('No F-12');
+                return false;
+            }
+        }
+        document.onmousedown = function (event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                //alert('No F-keys');
+                return false;
+            }
+        }
+        document.onkeydown = function (event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                //alert('No F-keys');
+                return false;
+            }
+        }
+        /////////////////////end///////////////////////
+
+
+        //////////ctrl+S disable code////////////////////////
+        $(document).bind('keydown', function (e) {
+            if (e.ctrlKey && (e.which == 83)) {
+                e.preventDefault();
+                //alert('Ctrl+S');
+                return false;
+            }
+        });
+        /////////////////////end///////////////////////
+        //////////ctrl+P disable code////////////////////////
+        $(document).bind('keydown', function (e) {
+            if (e.ctrlKey && (e.which == 80)) {
+                e.preventDefault();
+                //alert('Ctrl+S');
+                return false;
+            }
+        });
+        /////////////////////end///////////////////////
+
+
+
+    </script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function (d) {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/58b6c5b75b8fe5150ee976ca/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <div style="margin-top: -10px;">
+        <div class="container body">
+            <!-- page content -->
+            <div class="right_col " role="main">
+                <div class="">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer content -->
+    <footer>
+        <div class="pull-right">
+            © Copyright
+            <script>document.write(new Date().getFullYear());</script>
+            &nbsp;| <a href="http://dheya.com" target="_blank">Dheya Career Mentors</a>
+        </div>
+        <div class="clearfix"></div>
+    </footer>
+    <!-- /footer content -->
+</body>
+</html>

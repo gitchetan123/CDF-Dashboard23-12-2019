@@ -1,0 +1,71 @@
+2018-12-11 10:04:46,748 [16] ERROR candidatedetails - Page_Load -454 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+Invalid column name 'locked'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 215
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 131
+ClientConnectionId:67ab435e-3713-4182-a002-b0adeb287776
+Error Number:207,State:1,Class:16 
+ 
+2018-12-11 10:05:13,972 [16] ERROR candidatedetails - Page_Load -454 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'dheyaUpdates'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 215
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 131
+ClientConnectionId:67ab435e-3713-4182-a002-b0adeb287776
+Error Number:207,State:1,Class:16 
+ 
+2018-12-11 11:23:53,736 [37] ERROR candidatedetails - lbtn_traning_Click -671 
+ System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at db_context.ExecNonQuery(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 107
+   at candidatedetails.lbtn_traning_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 663 
+ 
+2018-12-11 11:28:55,261 [11] ERROR candidatedetails - lbtn_traning_Click -671 
+ System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at db_context.ExecNonQuery(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 107
+   at candidatedetails.lbtn_traning_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 663 
+ 
+2018-12-11 11:31:07,902 [11] ERROR candidatedetails - lbtn_traning_Click -671 
+ System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at db_context.ExecNonQuery(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 107
+   at candidatedetails.lbtn_traning_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 663 
+ 
+2018-12-11 11:31:42,575 [17] ERROR candidatedetails - Page_Load -60 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 47 
+ 
+2018-12-11 11:38:57,179 [11] ERROR candidatedetails - lbtn_traning_Click -674 
+ System.InvalidOperationException: ExecuteNonQuery: CommandText property has not been initialized
+   at db_context.ExecNonQuery(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 107
+   at candidatedetails.lbtn_traning_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 666 
+ 
+2018-12-11 13:19:30,664 [28] ERROR candidatedetails - Page_Load -461 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 420 
+ 
+2018-12-11 13:44:36,811 [34] ERROR candidatedetails - Page_Load -461 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 420 
+ 
+2018-12-11 13:47:05,132 [33] ERROR candidatedetails - Page_Load -461 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 420 
+ 
+2018-12-11 14:10:14,694 [16] ERROR candidatedetails - Page_Load -461 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 420 
+ 
+2018-12-11 14:11:33,971 [16] ERROR candidatedetails - Page_Load -461 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 420 
+ 
+2018-12-11 15:06:40,798 [15] ERROR candidatedetails - Page_Load -462 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 421 
+ 
+2018-12-11 15:09:22,188 [23] ERROR candidatedetails - Page_Load -462 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 421 
+ 
+2018-12-11 15:13:07,484 [23] ERROR candidatedetails - Page_Load -462 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\candidate-details.aspx.cs:line 421 
+ 

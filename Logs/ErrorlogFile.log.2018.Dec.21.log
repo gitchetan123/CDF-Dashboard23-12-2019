@@ -1,0 +1,107 @@
+2018-12-21 10:48:04,429 [28] ERROR Admin_ExportData_prospected_cdf - ExportToExcel_function -448 
+ System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Admin_ExportData_prospected_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\prospected-cdf.aspx.cs:line 405 
+ 
+2018-12-21 10:48:23,821 [32] ERROR Admin_ExportData_prospected_cdf - ExportToExcel_function -448 
+ System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Admin_ExportData_prospected_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\prospected-cdf.aspx.cs:line 405 
+ 
+2018-12-21 10:52:12,148 [32] ERROR Admin_ExportData_prospected_cdf - ExportToExcel_function -448 
+ System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Admin_ExportData_prospected_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\prospected-cdf.aspx.cs:line 405 
+ 
+2018-12-21 10:54:38,041 [29] ERROR Admin_ExportData_prospected_cdf - ExportToExcel_function -448 
+ System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Admin_ExportData_prospected_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\prospected-cdf.aspx.cs:line 405 
+ 
+2018-12-21 10:55:47,594 [10] ERROR Admin_ExportData_prospected_cdf - ExportToExcel_function -448 
+ System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Admin_ExportData_prospected_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\prospected-cdf.aspx.cs:line 405 
+ 
+2018-12-21 13:00:14,167 [79] ERROR Admin_training_batchwise_cdfList - ddlBatchName_SelectedIndexChanged -73 
+ System.Web.HttpException (0x80004005): A field or property with the name 'Name' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Admin_training_batchwise_cdfList.BindGrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\training-batchwise-cdfList.aspx.cs:line 132
+   at Admin_training_batchwise_cdfList.ddlBatchName_SelectedIndexChanged(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\training-batchwise-cdfList.aspx.cs:line 68 
+ 
+2018-12-21 13:00:30,018 [79] ERROR Admin_training_batchwise_cdfList - ddlBatchName_SelectedIndexChanged -73 
+ System.Web.HttpException (0x80004005): A field or property with the name 'Name' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Admin_training_batchwise_cdfList.BindGrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\training-batchwise-cdfList.aspx.cs:line 132
+   at Admin_training_batchwise_cdfList.ddlBatchName_SelectedIndexChanged(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\training-batchwise-cdfList.aspx.cs:line 68 
+ 
+2018-12-21 13:01:24,728 [80] ERROR Admin_training_batchwise_cdfList - ddlBatchName_SelectedIndexChanged -73 
+ System.Web.HttpException (0x80004005): A field or property with the name 'Name' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Admin_training_batchwise_cdfList.BindGrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\training-batchwise-cdfList.aspx.cs:line 132
+   at Admin_training_batchwise_cdfList.ddlBatchName_SelectedIndexChanged(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\training-batchwise-cdfList.aspx.cs:line 68 
+ 
+2018-12-21 18:32:58,415 [88] ERROR Admin_ExportData_final_cdf - BindGridView -341 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+   at db_context.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context.cs:line 237
+   at Admin_ExportData_final_cdf.BindGridView() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 332
+ClientConnectionId:5efe53ab-fbd1-4cd1-af2f-1c992a0989f1
+Error Number:156,State:1,Class:15 
+ 
+2018-12-21 18:33:57,096 [86] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -635 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\Admin\ExportData\final-cdf.aspx.cs:line 560 
+ 

@@ -1,0 +1,378 @@
+2019-01-22 14:10:41,176 [6] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-22 14:10:41,231 [6] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-22 14:10:41,249 [6] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-22 14:10:41,272 [6] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-22 14:10:41,288 [6] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-22 14:10:41,702 [6] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-22 14:21:47,908 [9] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 910
+ClientConnectionId:a9570ed5-b97e-448c-86c2-43f292945c8e
+Error Number:102,State:1,Class:15 
+ 
+2019-01-22 14:58:26,084 [42] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-22 14:58:26,098 [42] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-22 14:58:26,115 [42] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-22 14:58:26,138 [42] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-22 14:58:26,153 [42] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-22 14:58:26,613 [42] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-22 15:13:37,125 [34] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 910
+ClientConnectionId:78cce18d-b9a6-47d2-9997-df869e7cc275
+Error Number:102,State:1,Class:15 
+ 
+2019-01-22 15:37:43,650 [33] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'AS'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 910
+ClientConnectionId:78cce18d-b9a6-47d2-9997-df869e7cc275
+Error Number:156,State:1,Class:15 
+ 
+2019-01-22 15:37:48,465 [12] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'AS'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 910
+ClientConnectionId:78cce18d-b9a6-47d2-9997-df869e7cc275
+Error Number:156,State:1,Class:15 
+ 
+2019-01-22 15:58:05,863 [8] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-22 15:58:05,912 [8] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-22 15:58:05,930 [8] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-22 15:58:05,946 [8] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-22 15:58:05,969 [8] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-22 15:58:06,665 [8] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-22 16:00:13,212 [7] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'AS'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 910
+ClientConnectionId:6dae4667-49f1-4427-bdab-38f8f3ae308a
+Error Number:156,State:1,Class:15 
+ 
+2019-01-22 16:03:27,059 [6] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'AS'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 910
+ClientConnectionId:6dae4667-49f1-4427-bdab-38f8f3ae308a
+Error Number:156,State:1,Class:15 
+ 
+2019-01-22 16:05:07,406 [6] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'AS'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 910
+ClientConnectionId:6dae4667-49f1-4427-bdab-38f8f3ae308a
+Error Number:156,State:1,Class:15 
+ 
+2019-01-22 16:07:44,507 [11] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.ArgumentException: Column with name 'OccupationalCategory' was not found.
+   at System.Web.UI.DataVisualization.Charting.DataPointCollection.GetValueType(IEnumerator enumerator, String field)
+   at System.Web.UI.DataVisualization.Charting.DataPointCollection.AutoDetectValuesType(Series series, IEnumerator xEnumerator, String xField, IEnumerator yEnumerator, String yField)
+   at System.Web.UI.DataVisualization.Charting.ChartImage.DataBind(IEnumerable dataSource, ArrayList seriesList)
+   at System.Web.UI.DataVisualization.Charting.Chart.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 1227 
+ 
+2019-01-22 16:07:55,358 [11] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.ArgumentException: Column with name 'OccupationalCategory' was not found.
+   at System.Web.UI.DataVisualization.Charting.DataPointCollection.GetValueType(IEnumerator enumerator, String field)
+   at System.Web.UI.DataVisualization.Charting.DataPointCollection.AutoDetectValuesType(Series series, IEnumerator xEnumerator, String xField, IEnumerator yEnumerator, String yField)
+   at System.Web.UI.DataVisualization.Charting.ChartImage.DataBind(IEnumerable dataSource, ArrayList seriesList)
+   at System.Web.UI.DataVisualization.Charting.Chart.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 1227 
+ 
+2019-01-22 16:08:11,488 [11] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.ArgumentException: Column with name 'OccupationalCategory' was not found.
+   at System.Web.UI.DataVisualization.Charting.DataPointCollection.GetValueType(IEnumerator enumerator, String field)
+   at System.Web.UI.DataVisualization.Charting.DataPointCollection.AutoDetectValuesType(Series series, IEnumerator xEnumerator, String xField, IEnumerator yEnumerator, String yField)
+   at System.Web.UI.DataVisualization.Charting.ChartImage.DataBind(IEnumerable dataSource, ArrayList seriesList)
+   at System.Web.UI.DataVisualization.Charting.Chart.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 1227 
+ 
+2019-01-22 16:10:22,536 [12] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.ArgumentException: Column with name 'OccupationalCategory' was not found.
+   at System.Web.UI.DataVisualization.Charting.DataPointCollection.GetValueType(IEnumerator enumerator, String field)
+   at System.Web.UI.DataVisualization.Charting.DataPointCollection.AutoDetectValuesType(Series series, IEnumerator xEnumerator, String xField, IEnumerator yEnumerator, String yField)
+   at System.Web.UI.DataVisualization.Charting.ChartImage.DataBind(IEnumerable dataSource, ArrayList seriesList)
+   at System.Web.UI.DataVisualization.Charting.Chart.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 1227 
+ 
+2019-01-22 16:10:42,823 [12] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-22 16:10:42,852 [12] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-22 16:10:42,874 [12] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-22 16:10:42,889 [12] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-22 16:10:42,905 [12] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-22 16:10:43,253 [12] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-22 16:11:16,950 [6] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.ArgumentException: Column with name 'OccupationalCategory' was not found.
+   at System.Web.UI.DataVisualization.Charting.DataPointCollection.GetValueType(IEnumerator enumerator, String field)
+   at System.Web.UI.DataVisualization.Charting.DataPointCollection.AutoDetectValuesType(Series series, IEnumerator xEnumerator, String xField, IEnumerator yEnumerator, String yField)
+   at System.Web.UI.DataVisualization.Charting.ChartImage.DataBind(IEnumerable dataSource, ArrayList seriesList)
+   at System.Web.UI.DataVisualization.Charting.Chart.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 1227 
+ 
+2019-01-22 16:15:38,254 [10] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.ArgumentException: Column with name 'OccupationalCategory' was not found.
+   at System.Web.UI.DataVisualization.Charting.DataPointCollection.GetValueType(IEnumerator enumerator, String field)
+   at System.Web.UI.DataVisualization.Charting.DataPointCollection.AutoDetectValuesType(Series series, IEnumerator xEnumerator, String xField, IEnumerator yEnumerator, String yField)
+   at System.Web.UI.DataVisualization.Charting.ChartImage.DataBind(IEnumerable dataSource, ArrayList seriesList)
+   at System.Web.UI.DataVisualization.Charting.Chart.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 1227 
+ 
+2019-01-22 16:20:51,019 [10] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.ArgumentException: Column with name 'OccupationalCategory' was not found.
+   at System.Web.UI.DataVisualization.Charting.DataPointCollection.GetValueType(IEnumerator enumerator, String field)
+   at System.Web.UI.DataVisualization.Charting.DataPointCollection.AutoDetectValuesType(Series series, IEnumerator xEnumerator, String xField, IEnumerator yEnumerator, String yField)
+   at System.Web.UI.DataVisualization.Charting.ChartImage.DataBind(IEnumerable dataSource, ArrayList seriesList)
+   at System.Web.UI.DataVisualization.Charting.Chart.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 1227 
+ 
+2019-01-22 16:28:01,204 [8] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.ArgumentException: Column with name 'OccupationalCategory' was not found.
+   at System.Web.UI.DataVisualization.Charting.DataPointCollection.GetValueType(IEnumerator enumerator, String field)
+   at System.Web.UI.DataVisualization.Charting.DataPointCollection.AutoDetectValuesType(Series series, IEnumerator xEnumerator, String xField, IEnumerator yEnumerator, String yField)
+   at System.Web.UI.DataVisualization.Charting.ChartImage.DataBind(IEnumerable dataSource, ArrayList seriesList)
+   at System.Web.UI.DataVisualization.Charting.Chart.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 1227 
+ 
+2019-01-22 16:33:18,301 [5] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.Data.SqlClient.SqlException (0x80131904): Column 'tbl_career_master.Occupational_category' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 1161
+ClientConnectionId:8dc46de4-85d7-4416-b893-f7da91b0d33f
+Error Number:8120,State:1,Class:16 
+ 
+2019-01-22 16:33:36,340 [14] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-22 16:33:36,362 [14] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-22 16:33:36,388 [14] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-22 16:33:36,402 [14] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-22 16:33:36,419 [14] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-22 16:33:37,598 [14] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-22 16:35:47,089 [5] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'AS'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 1532
+ClientConnectionId:8dc46de4-85d7-4416-b893-f7da91b0d33f
+Error Number:156,State:1,Class:15 
+ 
+2019-01-22 16:48:43,629 [14] ERROR career_tool_ability_interest_rapd_filter - btn_preview_Click -1614 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'AS'.
+   at db_context_career.ExecDataSet(String s_query) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\App_Code\db_context_career.cs:line 147
+   at career_tool_ability_interest_rapd_filter.btn_preview_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\career-tool\ability-interest-rapd-filter.aspx.cs:line 1532
+ClientConnectionId:8dc46de4-85d7-4416-b893-f7da91b0d33f
+Error Number:156,State:1,Class:15 
+ 
+2019-01-22 17:29:48,543 [6] ERROR login - btn_login_Click -136 
+ System.OverflowException: Arithmetic operation resulted in an overflow.
+   at System.Data.ProviderBase.TimeoutTimer.StartMillisecondsTimeout(Int64 milliseconds)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at login.btn_login_Click(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\login.aspx.cs:line 41 
+ 
+2019-01-22 18:17:14,373 [19] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-22 18:17:14,392 [19] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-22 18:17:14,408 [19] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-22 18:17:14,423 [19] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-22 18:17:14,440 [19] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-22 18:17:14,740 [19] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-22 18:25:05,303 [8] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-22 18:25:05,319 [8] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-22 18:25:05,344 [8] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-22 18:25:05,358 [8] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-22 18:25:05,379 [8] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-22 18:25:05,881 [8] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 
+2019-01-22 18:31:01,139 [18] ERROR home - GetData -128 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 114 
+ 
+2019-01-22 18:31:01,166 [18] ERROR home - chart_bind -189 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 163 
+ 
+2019-01-22 18:31:01,190 [18] ERROR home - GetData2 -151 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.GetData2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 137 
+ 
+2019-01-22 18:31:01,204 [18] ERROR home - chart_bind2 -226 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.chart_bind2() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 200 
+ 
+2019-01-22 18:31:01,218 [18] ERROR home - bindgrid -328 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.bindgrid() in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 292 
+ 
+2019-01-22 18:31:01,715 [18] ERROR home - Page_Load -106 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Documents\GitHub\CDF-Dashboard2017\home.aspx.cs:line 35 
+ 

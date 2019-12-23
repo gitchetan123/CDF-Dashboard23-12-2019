@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ky_folw_lblResource1.Text" xml:space="preserve">
+    <value>ટેસ્ટ નંબરની વિગતો નીચે મુજબ છે.</value>
+  </data>
+  <data name="ky_inst_lblResource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;વ્યક્તિગત મિલકત પૃથક્કરણ કસોટીની સૂચનાઓ 
+&lt;/strong&gt;&lt;br /&gt;• આ કસોટીમાં ૯૦ વિધાનો/પ્રશ્નો છે. દરેક તમને ત્રણ વિકલ્પો આપે છે.( A, B, C) &lt;br /&gt;
+•  આ કસોટીને વધુ સારી રીતે સમજવા નીચેનું ઉદાહરણ જુઓ.&lt;br /&gt;
+ઉદાહરણ : &lt;br/&gt;&amp;nbsp;પ્રશ્ન. જો તમારો ઝગડો થાય તો તમે જલદીથી પુનઃ મિત્રો બનાવી લો છો.&lt;br /&gt;
+&amp;nbsp;&amp;nbsp; a) હા.&lt;br /&gt;
+&amp;nbsp;&amp;nbsp; b) અચોક્કસ&lt;br /&gt;
+&amp;nbsp;&amp;nbsp; c) ના.&lt;br /&gt;
+• અહીંયા કોઈ ઉત્તર સાચું કે ખોટું નથી. જે પહેલો સ્વાભાવિક ઉત્તર તમારાં મગજમાં આવે તેને પસંદ કરો.. &lt;br /&gt;
+• પ્રત્યેક વ્યક્તિ અલગ હોય છે તથા દરેકની પોતાના જુદાજુદા ગમા-અણગમા હોય છે. તેથી તમને સૌથી વધુ માફક આવતું ઉત્તર પસંદ કરો. &lt;br /&gt;
+• આ સમયમર્યાદા ધરાવતી કસોટી નથી. છતાં તમારી પસંદગી કરવા વધુ સમય ન લેશો.&lt;br /&gt; 
+વચ્ચેનો વિકલ્પ ત્યારે જ પસંદ કરો કે જયારે અન્ય બે વિકલ્પો પૈકી કોઈપણ એક ને પસંદ કરવું તદ્દન અશક્ય હોય.
+&lt;br /&gt;</value>
+  </data>
+  <data name="ky_tst_inst_hd_lblResource1.Text" xml:space="preserve">
+    <value>વ્યક્તિગત એસેટ એનેલાઇઝર ટેસ્ટ વિગતો</value>
+  </data>
+  <data name="LinkButton1Resource1.Text" xml:space="preserve">
+    <value>ચાલુ રાખવા માટે ક્લિક કરો ....</value>
+  </data>
+  <data name="wlcm_lblResource1.Text" xml:space="preserve">
+    <value>આપનું સ્વાગત છે</value>
+  </data>
+  <data name="lblassessment.Text" xml:space="preserve">
+    <value>આકારણી પોર્ટલ</value>
+  </data>
+</root>

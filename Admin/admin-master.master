@@ -1,0 +1,237 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin-master.master.cs" Inherits="CDFMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- bootstrap-progressbar -->
+    <%--<link href="<%=ResolveUrl("~") %> vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" />--%>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <!-- Bootstrap -->
+    <link href="<%=ResolveUrl("~") %>vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- NProgress -->
+    <%--<link href="<%=ResolveUrl("~") %>vendors/nprogress/nprogress.css" rel="stylesheet" />--%>
+    <!-- bootstrap-progressbar -->
+    <%--<link href="<%=ResolveUrl("~") %> vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" />--%>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <%--Favicon--%>
+    <link rel="icon" href="../images/fevicon.ico" type="image/x-icon" />
+    <!-- Custom Theme Style -->
+    <link href="../css/custom.min.css" rel="stylesheet" />
+    <link href="../css/pagination.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .adress {
+            max-width: 200px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /*.adress:hover {
+  max-width : initial; 
+}*/
+    </style>
+</head>
+<body class="nav-md footer_fixed">
+    <div>
+        <div class="container body">
+            <div class="main_container">
+                <div class="col-md-3 left_col">
+                    <div class="left_col scroll-view">
+                        <div class="navbar nav_title" style="border: 0;">
+                            <a href="AdminHome.aspx" class="site_title">
+                                <img src="<%=ResolveUrl("~") %>images/Icon.png" style="height: 35px; width: 35px;" />&nbsp;<span>Dheya-Admin</span></a>
+                        </div>
+                        <div class="clearfix"></div>
+                        <!-- menu profile quick info -->
+                        <div class="profile">
+                            <div class="profile_pic">
+                                <asp:Image ID="Image1" class="img-circle profile_img" runat="server" Visible="true" Width="60px" Height="60px" />
+                            </div>
+                            <br />
+                            <div class="profile_info" style="margin-top: 40px;">
+                                <div class="adress">
+                                    <strong>
+                                        <asp:Label ID="lbl_username" runat="server" Text='<%# Bind("ARCH_ISSUE") %>' ToolTip=""></asp:Label>
+
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /menu profile quick info -->
+                        <!-- sidebar menu -->
+                        <div id="sidebar-menu" class="main_menu_side hidden-print main_menu" style="margin-top: 0px;">
+                            <div class="menu_section">
+
+                                <ul class="nav side-menu">
+                                    <li id="Home" runat="server"><a href="<%=ResolveUrl("~") %>Admin/AdminHome.aspx"><i class="fa fa-home"></i>Home</a>
+                                    </li>
+
+
+
+                                    <li id="CareerTools" runat="server" visible="false"><a><i class="fa fa-cogs"></i>Career Tools <span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li id="abilityfilter" runat="server"><a href="<%=ResolveUrl("~") %>career-tool/ability-filter.aspx">Career by Ability</a></li>
+                                            <li id="interestfilter" runat="server"><a href="<%=ResolveUrl("~") %>career-tool/interest-filter.aspx">Career by Interest</a></li>
+                                            <li id="personalityfilter" runat="server"><a href="<%=ResolveUrl("~") %>career-tool/personality-filter.aspx">Career by Personality</a></li>
+                                            <li id="abilityInterestFilter" runat="server"><a href="<%=ResolveUrl("~") %>career-tool/ability-interest-filter.aspx">Career by Ability & Interest</a></li>
+                                            <li><a href="<%=ResolveUrl("~") %>career-tool/all-filter.aspx">Career by Ability, Interest & Personality</a></li>
+                                            <li><a href="<%=ResolveUrl("~") %>career-tool/RAPD-Filter.aspx">Career by RAPD</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li id="CareerSearch" runat="server" visible="false"><a><i class="fa fa-graduation-cap"></i>Career Search <span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li><a href="<%=ResolveUrl("~") %>Search/SearchCourse.aspx">Search Course</a></li>
+                                            <li><a href="<%=ResolveUrl("~") %>Search/SearchCareer.aspx">Search Career</a></li>
+                                            <li><a href="<%=ResolveUrl("~") %>Search/SearchExplorer.aspx">Career Explorer</a></li>
+                                            <li><a href="<%=ResolveUrl("~") %>Search/SearchSubco_Institute.aspx">Institute Search</a></li>
+                                        </ul>
+                                    </li>
+
+
+
+
+                                    <li id="CDFDetails" runat="server"><a><i class="fa fa-users"></i>CDF Details<span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/candidate-list.aspx">Prospected CDF List</a></li>
+
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/final-cdf.aspx">Final CDF List</a></li>
+
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/CDF/CDFRegistration.aspx">Manual CDF Registration</a></li>
+
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/verify-CDF-registration.aspx">Verify CDF Registration</a></li>
+
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/custom-payment-approve.aspx">Approve Custom Payment</a></li>
+
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/CDF-updation.aspx">CDF Updation List</a></li>
+
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/find-nearby-cdf.aspx">Find Nearby CDF</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li id="other" runat="server"><a><i class="fa fa-address-card-o"></i>Other Menus<span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <%-- <li><a href="<%=ResolveUrl("~") %>Admin/CDF/cdfedit.aspx">cdfedit</a></li>--%>
+
+                                            <li id="AdminUsersList" runat="server" visible="false"><a href="<%=ResolveUrl("~") %>Admin/admin-users.aspx">Admin User List</a></li>
+                                            <li id="ExecutiveList" runat="server"><a href="<%=ResolveUrl("~") %>Admin/executive.aspx">Executive List</a></li>
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/training-batch.aspx">Training Batch</a></li>
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/news-feed.aspx">News Feed</a></li>
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/find-coordinates.aspx">Find Coordinates</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="Resources" runat="server"><a><i class="fa fa-table"></i>Resources<span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li id="AddDocument" runat="server"><a href="<%=ResolveUrl("~") %>Admin/documents.aspx">Add Documents</a></li>
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/doctree.aspx">View Documents</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="GBL" runat="server"><a><i class="fa fa-briefcase"></i>User Business<span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/google-business-listing.aspx">Google Business Listing</a></li>
+                                            <%--<li><a href="<%=ResolveUrl("~") %>Admin/Sell/sell-details.aspx">CDF Sell Details</a></li>--%>
+                                        </ul>
+                                    </li>
+                                    <li id="Reports" runat="server"><a><i class="fa fa-line-chart"></i>Reports<span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/executive-report.aspx">Executive Report</a></li>
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/CDF-Report.aspx">CDF Report</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li id="Export" runat="server" visible="false"><a><i class="fa fa-file-excel-o"></i>Export To Excel<span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/ExportData/prospected-cdf.aspx">Prospected CDF </a></li>
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/ExportData/final-cdf.aspx">Final CDF </a></li>
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/ExportData/training-batches.aspx">Training Batch </a></li>
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/ExportData/training-batchwise-cdfList.aspx">Batchwise CDF List</a></li>
+                                            <li><a href="<%=ResolveUrl("~") %>Admin/ExportData/VerifiedCDF.aspx">Verified CDF </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- top navigation -->
+                <div class="top_nav">
+                    <div class="nav_menu">
+                        <nav>
+                            <div class="nav toggle">
+                                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                            </div>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="">
+                                    <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                        <%-- <img src="images/img.jpg" alt=""/>--%>
+                                        <%-- <asp:Image ID="Image2" runat="server" Visible="true" />--%>
+                                        <asp:Label ID="lbl_username2" runat="server"></asp:Label>
+                                        &nbsp;
+                                        <span class=" fa fa-angle-down"></span>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                        <li><a href="<%=ResolveUrl("~") %>Admin/change-password.aspx">Change Password</a></li>
+                                        <li><a href="<%=ResolveUrl("~") %>Admin/Logout.aspx"><i class="fa fa-sign-out pull-right"></i>Log Out</a></li>
+                                    </ul>
+                                </li>
+                                <li role="presentation" style="margin: 17px 20px 0 0;">
+                                    <p style="font-size: 14px;">Welcome to Dheya's CDF Admin</p>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery -->
+        <script src="<%=ResolveUrl("~") %>vendors/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="<%=ResolveUrl("~") %>vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- FastClick -->
+        <script src="<%=ResolveUrl("~") %>vendors/fastclick/lib/fastclick.js"></script>
+        <!-- NProgress -->
+        <%--<script src="<%=ResolveUrl("~") %>vendors/nprogress/nprogress.js"></script>--%>
+
+        <!-- DateJS -->
+
+        <%--<script src="<%=ResolveUrl("~") %>vendors/DateJS/build/date.js"></script>--%>
+        <!-- bootstrap-daterangepicker -->
+        <%--        <script src="<%=ResolveUrl("~") %>js/moment/moment.min.js"></script>
+        <script src="<%=ResolveUrl("~") %>js/datepicker/daterangepicker.js"></script>--%>
+    </div>
+    <div style="margin-top: -10px;">
+        <div class="container body">
+            <!-- page content -->
+            <div class="right_col " role="main">
+                <div class="" style="margin-bottom: 20px;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer content -->
+    <footer>
+        <div class="pull-right">
+            © Copyright
+            <script>document.write(new Date().getFullYear());</script>
+            &nbsp;| <a href="https://dheya.com" target="_blank">Dheya Career Mentors</a>
+        </div>
+        <div class="clearfix"></div>
+    </footer>
+    <!-- /footer content -->
+</body>
+</html>
